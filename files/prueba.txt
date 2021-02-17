@@ -1,0 +1,687 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<!-- Manifest added by SuperPWA - Progressive Web Apps Plugin For WordPress -->
+<link rel="manifest" href="/superpwa-manifest.json">
+<meta name="theme-color" content="#ff6600">
+<!-- / SuperPWA.com -->
+<title>Kronox Seguridad &#8211; Vigilantes de Seguridad</title><style id="rocket-critical-css">@-ms-viewport{width:device-width}:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-20:#005a87}.grid-container:after,.grid-container:before{content:".";display:block;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0}.grid-container:after{clear:both}.grid-container{margin-left:auto;margin-right:auto;max-width:1200px;padding-left:10px;padding-right:10px}.grid-parent{padding-left:0;padding-right:0}a,body,div,h2,h3,html,li,p,span,strong,ul{border:0;margin:0;padding:0}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}aside,figure,header,nav,section{display:block}ul{list-style:none}a{background-color:transparent}a img{border:0}body,button{font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-weight:400;text-transform:none;font-size:17px;line-height:1.5}p{margin-bottom:1.5em}h2,h3{font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit}h2{font-size:35px;margin-bottom:20px;line-height:1.2em;font-weight:400;text-transform:none}h3{font-size:29px;margin-bottom:20px;line-height:1.2em;font-weight:400;text-transform:none}ul{margin:0 0 1.5em 3em}ul{list-style:disc}b,strong{font-weight:700}figure{margin:0}img{height:auto;max-width:100%}button{font-size:100%;margin:0;vertical-align:baseline}button{border:1px solid transparent;background:#55555e;-webkit-appearance:button;padding:10px 20px;color:#fff}button::-moz-focus-inner{border:0;padding:0}a,a:visited{text-decoration:none}.size-large,.size-medium{max-width:100%;height:auto}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px;word-wrap:normal!important}.site-content:after,.site-header:after{content:"";display:table;clear:both}.main-navigation{z-index:100;padding:0;clear:both;display:block}.main-navigation a{display:block;text-decoration:none;font-weight:400;text-transform:none;font-size:15px}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation .main-nav ul li a{padding-left:20px;padding-right:20px;line-height:60px}.inside-navigation{position:relative}.main-navigation li{float:left;position:relative}.site-header{position:relative}.inside-header{padding:20px 40px}.site-logo{display:inline-block;max-width:100%}.site-header .header-image{vertical-align:middle}.header-widget{float:right;overflow:hidden;max-width:50%}.header-widget .widget{padding:0 0 20px;margin-bottom:0}.header-widget .widget:last-child{padding-bottom:0}.site-content{word-wrap:break-word}.widget{margin:0 0 30px;box-sizing:border-box}.separate-containers .widget:last-child,.widget:last-child{margin-bottom:0}.separate-containers .widget{margin-bottom:20px}.full-width-content .container.grid-container{max-width:100%}.container.grid-container{width:auto}.menu-toggle{display:none}.menu-toggle{padding:0 20px;line-height:60px;margin:0;font-weight:400;text-transform:none;font-size:15px}button.menu-toggle{background-color:transparent;width:100%;border:0;text-align:center}.menu-toggle .mobile-menu{padding-left:3px}@media (max-width:768px){.inside-header>:not(:last-child):not(.main-navigation){margin-bottom:20px}.site-header{text-align:center}.header-widget{float:none;max-width:100%;text-align:center}}@font-face{font-family:GeneratePress;src:url(https://kronoxseguridad.es/wp-content/themes/generatepress/assets/fonts/generatepress.eot);src:url(https://kronoxseguridad.es/wp-content/themes/generatepress/assets/fonts/generatepress.eot#iefix) format("embedded-opentype"),url(https://kronoxseguridad.es/wp-content/themes/generatepress/assets/fonts/generatepress.woff2) format("woff2"),url(https://kronoxseguridad.es/wp-content/themes/generatepress/assets/fonts/generatepress.woff) format("woff"),url(https://kronoxseguridad.es/wp-content/themes/generatepress/assets/fonts/generatepress.ttf) format("truetype"),url(https://kronoxseguridad.es/wp-content/themes/generatepress/assets/fonts/generatepress.svg#GeneratePress) format("svg");font-weight:400;font-style:normal}.menu-toggle:before{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}.menu-toggle:before{content:"\f0c9";font-family:GeneratePress;width:1.28571429em;text-align:center;display:inline-block}.joinchat{--bottom:20px;--sep:20px;--header:70px;--btn:60px;--red:37;--green:211;--blue:102;--rgb:var(--red),var(--green),var(--blue);--color:rgb(var(--rgb));--dark:rgb(calc(var(--red) - 75),calc(var(--green) - 75),calc(var(--blue) - 75));--hover:rgb(calc(var(--red) + 50),calc(var(--green) + 50),calc(var(--blue) + 50));--bg:rgba(var(--rgb),0.04);--tolerance:210;--bw:calc((var(--red)*0.2126 + var(--green)*0.7152 + var(--blue)*0.0722 - var(--tolerance))*-100000);--text:rgba(var(--bw),var(--bw),var(--bw),min(1,max(0.7,var(--bw))));--msg:var(--color);position:fixed;z-index:1000;right:var(--sep);bottom:var(--bottom);color:var(--text);font:normal normal normal 16px/1.625em -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;letter-spacing:0;transform:scale3d(0,0,0);-webkit-font-smoothing:antialiased}.joinchat *,.joinchat :after,.joinchat :before{box-sizing:border-box}@media (max-width:480px),(orientation:landscape) and (max-width:767px){.joinchat{--bottom:6px;--sep:6px;--header:55px}}.joinchat__button{display:flex;flex-direction:row;position:absolute;z-index:2;bottom:8px;right:8px;height:var(--btn);min-width:var(--btn);max-width:95vw;background:#25d366;color:inherit;border-radius:calc(var(--btn)/2);box-shadow:1px 6px 24px 0 rgba(7,94,84,.24);will-change:background-color,width}.joinchat__button__open{width:var(--btn);height:var(--btn);background:transparent url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M3.516 3.516c4.686-4.686 12.284-4.686 16.97 0 4.686 4.686 4.686 12.283 0 16.97a12.004 12.004 0 01-13.754 2.299l-5.814.735a.392.392 0 01-.438-.44l.748-5.788A12.002 12.002 0 013.517 3.517zm3.61 17.043l.3.158a9.846 9.846 0 0011.534-1.758c3.843-3.843 3.843-10.074 0-13.918-3.843-3.843-10.075-3.843-13.918 0a9.846 9.846 0 00-1.747 11.554l.16.303-.51 3.942a.196.196 0 00.219.22l3.961-.501zm6.534-7.003l-.933 1.164a9.843 9.843 0 01-3.497-3.495l1.166-.933a.792.792 0 00.23-.94L9.561 6.96a.793.793 0 00-.924-.445 1291.6 1291.6 0 00-2.023.524.797.797 0 00-.588.88 11.754 11.754 0 0010.005 10.005.797.797 0 00.88-.587l.525-2.023a.793.793 0 00-.445-.923L14.6 13.327a.792.792 0 00-.94.23z'/%3E%3C/svg%3E") 50% no-repeat;background-size:60%}.joinchat__button__send{display:none;width:var(--btn);height:var(--btn);max-width:var(--btn);padding:12px 11px 12px 13px;margin:0;flex-shrink:0}.joinchat__button__send path{fill:none!important;stroke:var(--text)!important}.joinchat__button__send .joinchat_svg__plain{stroke-dasharray:1097;stroke-dashoffset:1097;animation:joinchat_plain 6s .2s ease-in-out infinite}.joinchat__button__send .joinchat_svg__chat{stroke-dasharray:1020;stroke-dashoffset:1020;animation:joinchat_chat 6s 3.2s ease-in-out infinite}.joinchat__button__sendtext{padding:0;max-width:0;font-weight:600;line-height:var(--btn);white-space:nowrap;opacity:0;overflow:hidden}.joinchat__box{display:flex;flex-direction:column;position:absolute;bottom:0;right:0;z-index:1;width:calc(100vw - var(--sep)*2);max-width:400px;min-height:170px;max-height:calc(100vh - var(--bottom) - var(--sep));border-radius:32px;background:transparent;box-shadow:0 2px 6px 0 rgba(0,0,0,.5);text-align:left;overflow:hidden;transform:scale3d(0,0,0);opacity:0}.joinchat__header{display:flex;flex-flow:row;align-items:center;position:relative;flex-shrink:0;height:var(--header);padding:0 70px 0 26px;margin:0;background:var(--color);text-align:left}.joinchat__powered{font-size:11px;line-height:18px;color:inherit!important;text-decoration:none!important;fill:currentColor;opacity:.8}.joinchat__powered svg{display:inline-block;width:auto;height:18px;vertical-align:-30%}.joinchat__close{position:absolute;top:50%;right:24px;width:34px;height:34px;margin-top:-16px;border-radius:50%;background:rgba(0,0,0,.4) url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Cpath d='M24 2.4L21.6 0 12 9.6 2.4 0 0 2.4 9.6 12 0 21.6 2.4 24l9.6-9.6 9.6 9.6 2.4-2.4-9.6-9.6L24 2.4z'/%3E%3C/svg%3E") 50% no-repeat;background-size:12px}.joinchat__box__scroll{padding:20px 0 70px;padding-bottom:calc(var(--btn) + 10px);background:#fff linear-gradient(0deg,var(--bg),var(--bg));overflow-x:hidden;overflow-y:auto;will-change:scroll-position}.joinchat__box__scroll::-webkit-scrollbar{width:5px;background:transparent}.joinchat__box__scroll::-webkit-scrollbar-thumb{border-radius:3px;background:transparent}@supports (-webkit-overflow-scrolling:touch){.joinchat__box__scroll{overflow-y:scroll;-webkit-overflow-scrolling:touch}}@media (max-width:480px),(orientation:landscape) and (max-width:767px){.joinchat__close{margin-top:-14px;width:28px;height:28px}.joinchat__box__scroll{padding-top:15px}}.joinchat__message{position:relative;min-height:60px;padding:17px 20px;margin:0 26px 26px;border-radius:32px;background:#fff;color:#4a4a4a;filter:drop-shadow(0 1px 2px rgba(0,0,0,.3));transform:translateZ(0)}.joinchat__message:before{content:"";display:block;position:absolute;bottom:20px;left:-15px;width:17px;height:25px;background:inherit;-webkit-clip-path:url(https://kronoxseguridad.es/wp-content/plugins/creame-whatsapp-me/public/css/#joinchat__message__peak);clip-path:url(https://kronoxseguridad.es/wp-content/plugins/creame-whatsapp-me/public/css/#joinchat__message__peak)}@media (max-width:480px),(orientation:landscape) and (max-width:767px){.joinchat__message{padding:18px 16px;line-height:24px;margin:0 20px 20px}}@keyframes joinchat_plain{0%,50%,to{stroke-dashoffset:1097}5%,45%{stroke-dashoffset:0}}@keyframes joinchat_chat{0%,50%,to{stroke-dashoffset:1020}5%,45%{stroke-dashoffset:0}}.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated{padding:10px}@media (max-width:767px){.elementor-reverse-mobile>.elementor-container>.elementor-row>:first-child{-webkit-box-ordinal-group:11;-ms-flex-order:10;order:10}.elementor-reverse-mobile>.elementor-container>.elementor-row>:nth-child(2){-webkit-box-ordinal-group:10;-ms-flex-order:9;order:9}.elementor-column{width:100%}}.screen-reader-text{position:absolute;top:-10000em;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}.elementor-clearfix:after{content:"";display:block;clear:both;width:0;height:0}.elementor{-webkit-hyphens:manual;-ms-hyphens:manual;hyphens:manual}.elementor *,.elementor :after,.elementor :before{-webkit-box-sizing:border-box;box-sizing:border-box}.elementor img{height:auto;max-width:100%;border:none;-webkit-border-radius:0;border-radius:0;-webkit-box-shadow:none;box-shadow:none}.elementor .elementor-widget:not(.elementor-widget-text-editor):not(.elementor-widget-theme-post-content) figure{margin:0}:root{--page-title-display:block}.elementor-section{position:relative}.elementor-section .elementor-container{display:-webkit-box;display:-ms-flexbox;display:flex;margin-right:auto;margin-left:auto;position:relative}@media (max-width:1024px){.elementor-section .elementor-container{-ms-flex-wrap:wrap;flex-wrap:wrap}}.elementor-section.elementor-section-boxed>.elementor-container{max-width:1140px}.elementor-section.elementor-section-stretched{position:relative;width:100%}.elementor-row{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex}@media (max-width:1024px){.elementor-row{-ms-flex-wrap:wrap;flex-wrap:wrap}}.elementor-widget-wrap{position:relative;width:100%;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-line-pack:start;align-content:flex-start}.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap{display:-webkit-box;display:-ms-flexbox;display:flex}.elementor-widget-wrap>.elementor-element{width:100%}.elementor-widget{position:relative}.elementor-widget:not(:last-child){margin-bottom:20px}.elementor-column{min-height:1px}.elementor-column,.elementor-column-wrap{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex}.elementor-column-wrap{width:100%}@media (min-width:768px){.elementor-column.elementor-col-50{width:50%}.elementor-column.elementor-col-100{width:100%}}@media (max-width:767px){.elementor-reverse-mobile>.elementor-container>:first-child{-webkit-box-ordinal-group:11;-ms-flex-order:10;order:10}.elementor-column{width:100%}}.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#2c2c2c;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:-webkit-box;display:-ms-flexbox;display:flex}.elementor-widget-divider .elementor-divider-separator{display:-webkit-box;display:-ms-flexbox;display:flex;margin:0;direction:ltr}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-image{text-align:center}.elementor-widget-image .elementor-image img{vertical-align:middle;display:inline-block}.elementor-widget-image-carousel .swiper-container{position:static}.elementor-widget-image-carousel .swiper-container .swiper-slide figure{line-height:inherit}.elementor-widget-image-carousel .swiper-slide{text-align:center}.swiper-container{margin-left:auto;margin-right:auto;position:relative;overflow:hidden;z-index:1}.swiper-container .swiper-slide figure{line-height:0}.swiper-wrapper{position:relative;width:100%;height:100%;z-index:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-sizing:content-box;box-sizing:content-box}.swiper-wrapper{-webkit-transform:translateZ(0);transform:translateZ(0)}.swiper-slide{-ms-flex-negative:0;flex-shrink:0;width:100%;height:100%;position:relative}.elementor-kit-7{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-color-1e19aa84:#FF6600;--e-global-color-2090f57e:#3F3F3F;--e-global-color-52ad366b:#FFF;--e-global-color-ec69548:#EAE9E8;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500}.elementor-section.elementor-section-boxed>.elementor-container{max-width:1140px}.elementor-widget:not(:last-child){margin-bottom:20px}@media (max-width:1024px){.elementor-section.elementor-section-boxed>.elementor-container{max-width:1025px}}@media (max-width:767px){.elementor-section.elementor-section-boxed>.elementor-container{max-width:768px}}.swiper-slide{border-style:solid;border-width:0;overflow:hidden}.elementor-widget-heading .elementor-heading-title{color:var(--e-global-color-primary);font-family:var(--e-global-typography-primary-font-family),Sans-serif;font-weight:var(--e-global-typography-primary-font-weight)}.elementor-widget-text-editor{color:var(--e-global-color-text);font-family:var(--e-global-typography-text-font-family),Sans-serif;font-weight:var(--e-global-typography-text-font-weight)}.elementor-widget-divider{--divider-color:var( --e-global-color-secondary )}.elementor-593 .elementor-element.elementor-element-31ac0b6>.elementor-container>.elementor-row>.elementor-column>.elementor-column-wrap>.elementor-widget-wrap{align-content:center;align-items:center}.elementor-593 .elementor-element.elementor-element-31ac0b6{margin-top:0px;margin-bottom:0px;padding:5px 5px 5px 5px}.elementor-593 .elementor-element.elementor-element-6a253e9>.elementor-column-wrap>.elementor-widget-wrap>.elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px}.elementor-593 .elementor-element.elementor-element-c7ae59f{color:#FF6600}.elementor-593 .elementor-element.elementor-element-dc5b810 .elementor-heading-title{color:#3F3F3F;font-size:50px}.elementor-593 .elementor-element.elementor-element-dc5b810>.elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.elementor-593 .elementor-element.elementor-element-af08fc1 .elementor-heading-title{color:#3F3F3F}.elementor-593 .elementor-element.elementor-element-af08fc1>.elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.elementor-593 .elementor-element.elementor-element-4509897{--divider-border-style:solid;--divider-color:#000;--divider-border-width:1px}.elementor-593 .elementor-element.elementor-element-4509897 .elementor-divider-separator{width:100%}.elementor-593 .elementor-element.elementor-element-4509897 .elementor-divider{padding-top:15px;padding-bottom:15px}.elementor-593 .elementor-element.elementor-element-2b424fa .elementor-text-editor{text-align:justify}.elementor-593 .elementor-element.elementor-element-2b424fa>.elementor-widget-container{margin:0px 0px 0px 0px}:root{--page-title-display:none}@media (max-width:767px){.elementor-593 .elementor-element.elementor-element-c7ae59f{font-size:11px}.elementor-593 .elementor-element.elementor-element-dc5b810 .elementor-heading-title{font-size:30px}.elementor-593 .elementor-element.elementor-element-af08fc1 .elementor-heading-title{font-size:19px}.elementor-593 .elementor-element.elementor-element-2b424fa .elementor-text-editor{text-align:justify}.elementor-593 .elementor-element.elementor-element-2b424fa{font-size:11px}}</style><link rel="preload" href="https://kronoxseguridad.es/wp-content/cache/min/1/46364e85a5fe6103679bd9ec802e69b7.css" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" media="all" data-minify="1" />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Kronox Seguridad &raquo; Feed" href="https://kronoxseguridad.es/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Kronox Seguridad &raquo; Feed de los comentarios" href="https://kronoxseguridad.es/comments/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.15.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script data-rocketlazyloadscript='data:text/javascript;base64,CiAgICAod2luZG93LmdhRGV2SWRzPXdpbmRvdy5nYURldklkc3x8W10pLnB1c2goImRaR0l6WkciKTsKCXZhciBtaV92ZXJzaW9uICAgICAgICAgPSAnNy4xNS4xJzsKCXZhciBtaV90cmFja191c2VyICAgICAgPSB0cnVlOwoJdmFyIG1pX25vX3RyYWNrX3JlYXNvbiA9ICcnOwoJCgl2YXIgZGlzYWJsZVN0ciA9ICdnYS1kaXNhYmxlLVVBLTExMTE1MjU1NS0xJzsKCgkvKiBGdW5jdGlvbiB0byBkZXRlY3Qgb3B0ZWQgb3V0IHVzZXJzICovCglmdW5jdGlvbiBfX2dhVHJhY2tlcklzT3B0ZWRPdXQoKSB7CgkJcmV0dXJuIGRvY3VtZW50LmNvb2tpZS5pbmRleE9mKGRpc2FibGVTdHIgKyAnPXRydWUnKSA+IC0xOwoJfQoKCS8qIERpc2FibGUgdHJhY2tpbmcgaWYgdGhlIG9wdC1vdXQgY29va2llIGV4aXN0cy4gKi8KCWlmICggX19nYVRyYWNrZXJJc09wdGVkT3V0KCkgKSB7CgkJd2luZG93W2Rpc2FibGVTdHJdID0gdHJ1ZTsKCX0KCgkvKiBPcHQtb3V0IGZ1bmN0aW9uICovCglmdW5jdGlvbiBfX2dhVHJhY2tlck9wdG91dCgpIHsKCSAgZG9jdW1lbnQuY29va2llID0gZGlzYWJsZVN0ciArICc9dHJ1ZTsgZXhwaXJlcz1UaHUsIDMxIERlYyAyMDk5IDIzOjU5OjU5IFVUQzsgcGF0aD0vJzsKCSAgd2luZG93W2Rpc2FibGVTdHJdID0gdHJ1ZTsKCX0KCglpZiAoICd1bmRlZmluZWQnID09PSB0eXBlb2YgZ2FPcHRvdXQgKSB7CgkJZnVuY3Rpb24gZ2FPcHRvdXQoKSB7CgkJCV9fZ2FUcmFja2VyT3B0b3V0KCk7CgkJfQoJfQoJCglpZiAoIG1pX3RyYWNrX3VzZXIgKSB7CgkJKGZ1bmN0aW9uKGkscyxvLGcscixhLG0pe2lbJ0dvb2dsZUFuYWx5dGljc09iamVjdCddPXI7aVtyXT1pW3JdfHxmdW5jdGlvbigpewoJCQkoaVtyXS5xPWlbcl0ucXx8W10pLnB1c2goYXJndW1lbnRzKX0saVtyXS5sPTEqbmV3IERhdGUoKTthPXMuY3JlYXRlRWxlbWVudChvKSwKCQkJbT1zLmdldEVsZW1lbnRzQnlUYWdOYW1lKG8pWzBdO2EuYXN5bmM9MTthLnNyYz1nO20ucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUoYSxtKQoJCX0pKHdpbmRvdyxkb2N1bWVudCwnc2NyaXB0JywnLy93d3cuZ29vZ2xlLWFuYWx5dGljcy5jb20vYW5hbHl0aWNzLmpzJywnX19nYVRyYWNrZXInKTsKCgkJX19nYVRyYWNrZXIoJ2NyZWF0ZScsICdVQS0xMTExNTI1NTUtMScsICdhdXRvJyk7CgkJX19nYVRyYWNrZXIoJ3NldCcsICdmb3JjZVNTTCcsIHRydWUpOwoJCV9fZ2FUcmFja2VyKCdyZXF1aXJlJywgJ2Rpc3BsYXlmZWF0dXJlcycpOwoJCV9fZ2FUcmFja2VyKCdyZXF1aXJlJywgJ2xpbmtpZCcsICdsaW5raWQuanMnKTsKCQlfX2dhVHJhY2tlcignc2VuZCcsJ3BhZ2V2aWV3Jyk7Cgl9IGVsc2UgewoJCWNvbnNvbGUubG9nKCAiIiApOwoJCShmdW5jdGlvbigpIHsKCQkJLyogaHR0cHM6Ly9kZXZlbG9wZXJzLmdvb2dsZS5jb20vYW5hbHl0aWNzL2Rldmd1aWRlcy9jb2xsZWN0aW9uL2FuYWx5dGljc2pzLyAqLwoJCQl2YXIgbm9vcGZuID0gZnVuY3Rpb24oKSB7CgkJCQlyZXR1cm4gbnVsbDsKCQkJfTsKCQkJdmFyIG5vb3BudWxsZm4gPSBmdW5jdGlvbigpIHsKCQkJCXJldHVybiBudWxsOwoJCQl9OwoJCQl2YXIgVHJhY2tlciA9IGZ1bmN0aW9uKCkgewoJCQkJcmV0dXJuIG51bGw7CgkJCX07CgkJCXZhciBwID0gVHJhY2tlci5wcm90b3R5cGU7CgkJCXAuZ2V0ID0gbm9vcGZuOwoJCQlwLnNldCA9IG5vb3BmbjsKCQkJcC5zZW5kID0gbm9vcGZuOwoJCQl2YXIgX19nYVRyYWNrZXIgPSBmdW5jdGlvbigpIHsKCQkJCXZhciBsZW4gPSBhcmd1bWVudHMubGVuZ3RoOwoJCQkJaWYgKCBsZW4gPT09IDAgKSB7CgkJCQkJcmV0dXJuOwoJCQkJfQoJCQkJdmFyIGYgPSBhcmd1bWVudHNbbGVuLTFdOwoJCQkJaWYgKCB0eXBlb2YgZiAhPT0gJ29iamVjdCcgfHwgZiA9PT0gbnVsbCB8fCB0eXBlb2YgZi5oaXRDYWxsYmFjayAhPT0gJ2Z1bmN0aW9uJyApIHsKCQkJCQljb25zb2xlLmxvZyggJ0Z1bmNpw7NuIGRlc2FjdGl2YWRhIF9fZ2FUcmFja2VyKCcgKyBhcmd1bWVudHNbMF0gKyAiIC4uLi4pIHBvcnF1ZSBubyBlc3TDoXMgc2llbmRvIHJhc3RyZWFkby4gIiArIG1pX25vX3RyYWNrX3JlYXNvbiApOwoJCQkJCXJldHVybjsKCQkJCX0KCQkJCXRyeSB7CgkJCQkJZi5oaXRDYWxsYmFjaygpOwoJCQkJfSBjYXRjaCAoZXgpIHsKCgkJCQl9CgkJCX07CgkJCV9fZ2FUcmFja2VyLmNyZWF0ZSA9IGZ1bmN0aW9uKCkgewoJCQkJcmV0dXJuIG5ldyBUcmFja2VyKCk7CgkJCX07CgkJCV9fZ2FUcmFja2VyLmdldEJ5TmFtZSA9IG5vb3BudWxsZm47CgkJCV9fZ2FUcmFja2VyLmdldEFsbCA9IGZ1bmN0aW9uKCkgewoJCQkJcmV0dXJuIFtdOwoJCQl9OwoJCQlfX2dhVHJhY2tlci5yZW1vdmUgPSBub29wZm47CgkJCXdpbmRvd1snX19nYVRyYWNrZXInXSA9IF9fZ2FUcmFja2VyOwoJCQkJCX0pKCk7CgkJfQo=' type="text/javascript" data-cfasync="false"></script>
+<!-- / Google Analytics by MonsterInsights -->
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	
+
+
+
+<style id='generate-style-inline-css'>
+body{background-color:#ffffff;color:#3a3a3a;}a{color:#1e73be;}a:hover, a:focus, a:active{color:#000000;}body .grid-container{max-width:1100px;}.wp-block-group__inner-container{max-width:1100px;margin-left:auto;margin-right:auto;}.site-header .header-image{width:300px;}body, button, input, select, textarea{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}body{line-height:1.5;}.entry-content > [class*="wp-block-"]:not(:last-child){margin-bottom:1.5em;}.main-title{font-size:45px;}.main-navigation a, .menu-toggle{text-transform:capitalize;}.main-navigation .main-nav ul ul li a{font-size:14px;}.sidebar .widget, .footer-widgets .widget{font-size:17px;}h1{font-weight:300;font-size:40px;}h2{font-weight:300;font-size:30px;}h3{font-size:20px;}h4{font-size:inherit;}h5{font-size:inherit;}@media (max-width:768px){.main-title{font-size:30px;}h1{font-size:30px;}h2{font-size:25px;}}.top-bar{background-color:#636363;color:#ffffff;}.top-bar a{color:#ffffff;}.top-bar a:hover{color:#303030;}.site-header{background-color:#ff6600;color:#3a3a3a;}.site-header a{color:#3a3a3a;}.main-title a,.main-title a:hover{color:#222222;}.site-description{color:#757575;}.main-navigation,.main-navigation ul ul{background-color:#000000;}.main-navigation .main-nav ul li a,.menu-toggle, .main-navigation .menu-bar-items{color:#ffffff;}.main-navigation .main-nav ul li:hover > a,.main-navigation .main-nav ul li:focus > a, .main-navigation .main-nav ul li.sfHover > a, .main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{color:#000000;background-color:#ff6600;}button.menu-toggle:hover,button.menu-toggle:focus,.main-navigation .mobile-bar-items a,.main-navigation .mobile-bar-items a:hover,.main-navigation .mobile-bar-items a:focus{color:#ffffff;}.main-navigation .main-nav ul li[class*="current-menu-"] > a{color:#ffffff;background-color:#3f3f3f;}.main-navigation .main-nav ul li[class*="current-menu-"] > a:hover,.main-navigation .main-nav ul li[class*="current-menu-"].sfHover > a{color:#ffffff;background-color:#3f3f3f;}.navigation-search input[type="search"],.navigation-search input[type="search"]:active, .navigation-search input[type="search"]:focus, .main-navigation .main-nav ul li.search-item.active > a, .main-navigation .menu-bar-items .search-item.active > a{color:#000000;background-color:#ff6600;}.main-navigation ul ul{background-color:#3f3f3f;}.main-navigation .main-nav ul ul li a{color:#ffffff;}.main-navigation .main-nav ul ul li:hover > a,.main-navigation .main-nav ul ul li:focus > a,.main-navigation .main-nav ul ul li.sfHover > a{color:#ffffff;background-color:#4f4f4f;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a{color:#ffffff;background-color:#4f4f4f;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a:hover,.main-navigation .main-nav ul ul li[class*="current-menu-"].sfHover > a{color:#ffffff;background-color:#4f4f4f;}.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .one-container .container, .separate-containers .paging-navigation, .inside-page-header{background-color:#ffffff;}.entry-meta{color:#595959;}.entry-meta a{color:#595959;}.entry-meta a:hover{color:#1e73be;}.sidebar .widget{background-color:#ffffff;}.sidebar .widget .widget-title{color:#000000;}.footer-widgets{color:#ffffff;background-color:#000000;}.footer-widgets .widget-title{color:#000000;}.site-info{color:#ffffff;background-color:#000000;}.site-info a{color:#ffffff;}.site-info a:hover{color:#606060;}.footer-bar .widget_nav_menu .current-menu-item a{color:#606060;}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="tel"],input[type="number"],textarea,select{color:#666666;background-color:#fafafa;border-color:#cccccc;}input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="number"]:focus,textarea:focus,select:focus{color:#666666;background-color:#ffffff;border-color:#bfbfbf;}button,html input[type="button"],input[type="reset"],input[type="submit"],a.button,a.wp-block-button__link:not(.has-background){color:#ffffff;background-color:#666666;}button:hover,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,a.button:hover,button:focus,html input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,a.button:focus,a.wp-block-button__link:not(.has-background):active,a.wp-block-button__link:not(.has-background):focus,a.wp-block-button__link:not(.has-background):hover{color:#ffffff;background-color:#3f3f3f;}a.generate-back-to-top{background-color:rgba( 0,0,0,0.4 );color:#ffffff;}a.generate-back-to-top:hover,a.generate-back-to-top:focus{background-color:rgba( 0,0,0,0.6 );color:#ffffff;}@media (max-width:768px){.main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{background:none;color:#ffffff;}}.inside-top-bar{padding:10px;}.inside-header{padding:40px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-40px;width:calc(100% + 80px);max-width:calc(100% + 80px);}.main-navigation .main-nav ul li a,.menu-toggle,.main-navigation .mobile-bar-items a{padding-left:12px;padding-right:12px;}.main-navigation .main-nav ul ul li a{padding:10px 12px 10px 12px;}.rtl .menu-item-has-children .dropdown-menu-toggle{padding-left:12px;}.menu-item-has-children .dropdown-menu-toggle{padding-right:12px;}.rtl .main-navigation .main-nav ul li.menu-item-has-children > a{padding-right:12px;}.site-info{padding:20px;}@media (max-width:768px){.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-page-header, .wp-block-group__inner-container{padding:30px;}.site-info{padding-right:10px;padding-left:10px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-30px;width:calc(100% + 60px);max-width:calc(100% + 60px);}}.one-container .sidebar .widget{padding:0px;}/* End cached CSS */@media (max-width:768px){.main-navigation .menu-toggle,.main-navigation .mobile-bar-items,.sidebar-nav-mobile:not(#sticky-placeholder){display:block;}.main-navigation ul,.gen-sidebar-nav{display:none;}[class*="nav-float-"] .site-header .inside-header > *{float:none;clear:both;}}
+</style>
+
+
+<style id='joinchat-inline-css'>
+.joinchat{ --red:0; --green:211; --blue:77; }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<link rel='preload'   href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.6.1&#038;display=swap' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" media='all' />
+<script id='monsterinsights-frontend-script-js-extra'>
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/kronoxseguridad.es","hash_tracking":"false"};
+</script>
+
+<script src='https://kronoxseguridad.es/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+
+<script id='utils-js-extra'>
+var userSettings = {"url":"\/","uid":"0","time":"1613597851","secure":"1"};
+</script>
+
+<script id='lp-global-js-extra'>
+var lpGlobalSettings = {"url":null,"siteurl":"https:\/\/kronoxseguridad.es","ajax":"https:\/\/kronoxseguridad.es\/wp-admin\/admin-ajax.php","theme":"generatepress","localize":{"button_ok":"OK","button_cancel":"Cancelar","button_yes":"S\u00ed","button_no":"No"},"show_popup_confirm_finish":"yes"};
+</script>
+
+
+
+
+<link rel="https://api.w.org/" href="https://kronoxseguridad.es/wp-json/" /><link rel="alternate" type="application/json" href="https://kronoxseguridad.es/wp-json/wp/v2/pages/593" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kronoxseguridad.es/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://kronoxseguridad.es/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.6.1" />
+<link rel="canonical" href="https://kronoxseguridad.es/" />
+<link rel='shortlink' href='https://kronoxseguridad.es/' />
+<link rel="alternate" type="application/json+oembed" href="https://kronoxseguridad.es/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkronoxseguridad.es%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://kronoxseguridad.es/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkronoxseguridad.es%2F&#038;format=xml" />
+<meta name="viewport" content="width=device-width, initial-scale=1"><style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://kronoxseguridad.es/wp-content/uploads/2020/05/icon.png" sizes="32x32" />
+<link rel="icon" href="https://kronoxseguridad.es/wp-content/uploads/2020/05/icon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://kronoxseguridad.es/wp-content/uploads/2020/05/icon.png" />
+<meta name="msapplication-TileImage" content="https://kronoxseguridad.es/wp-content/uploads/2020/05/icon.png" />
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><script>
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
+var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=!1}
+return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}
+if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}
+setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}
+var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",!0);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}
+if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}
+else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
+</script></head>
+
+<body class="home page-template page-template-elementor_header_footer page page-id-593 wp-custom-logo wp-embed-responsive customer-area-active no-sidebar nav-below-header separate-containers fluid-header active-footer-widgets-3 nav-aligned-left header-aligned-left dropdown-hover elementor-default elementor-template-full-width elementor-kit-7 elementor-page elementor-page-593 full-width-content" itemtype="https://schema.org/WebPage" itemscope>
+	<a class="screen-reader-text skip-link" href="#content" title="Saltar al contenido">Saltar al contenido</a>		<header id="masthead" class="site-header" itemtype="https://schema.org/WPHeader" itemscope>
+			<div class="inside-header grid-container grid-parent">
+							<div class="header-widget">
+				<aside id="media_image-7" class="widget inner-padding widget_media_image"><a href="https://kronoxseguridad.es/index.php/covid-19/"><img width="300" height="83" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%2083'%3E%3C/svg%3E" class="image wp-image-1525  attachment-full size-full" alt="protocolo" style="max-width: 100%; height: auto;" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/covid-300x83-1.png" /><noscript><img width="300" height="83" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/covid-300x83-1.png" class="image wp-image-1525  attachment-full size-full" alt="protocolo" style="max-width: 100%; height: auto;" /></noscript></a></aside>			</div>
+			<div class="site-logo">
+					<a href="https://kronoxseguridad.es/" title="Kronox Seguridad" rel="home">
+						<img  class="header-image is-logo-image" alt="Kronox Seguridad" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" title="Kronox Seguridad" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/05/Kronox_logo.png" /><noscript><img  class="header-image is-logo-image" alt="Kronox Seguridad" src="https://kronoxseguridad.es/wp-content/uploads/2020/05/Kronox_logo.png" title="Kronox Seguridad" /></noscript>
+					</a>
+				</div>			</div>
+		</header>
+				<nav id="site-navigation" class="main-navigation sub-menu-right" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+			<div class="inside-navigation grid-container grid-parent">
+								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+					<span class="mobile-menu">Menú</span>				</button>
+				<div id="primary-menu" class="main-nav"><ul id="menu-menu" class=" menu sf-menu"><li id="menu-item-596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-593 current_page_item menu-item-596"><a href="https://kronoxseguridad.es/" aria-current="page">La Empresa</a></li>
+<li id="menu-item-1311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1311"><a href="https://kronoxseguridad.es/acudas/">Acudas</a></li>
+<li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231"><a href="https://kronoxseguridad.es/presupuesto/">Presupuesto</a></li>
+<li id="menu-item-232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232"><a href="https://kronoxseguridad.es/trabajar/">Trabajar</a></li>
+<li id="menu-item-355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-355"><a href="https://kronoxseguridad.es/portaldeltrabajador/">Portal del trabajador</a></li>
+<li id="menu-item-229" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a href="https://kronoxseguridad.es/contacto/">Contacto</a></li>
+</ul></div>			</div>
+		</nav>
+		
+	<div id="page" class="site grid-container container hfeed grid-parent">
+				<div id="content" class="site-content">
+					<div data-elementor-type="wp-page" data-elementor-id="593" class="elementor elementor-593" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-93eb3dd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="93eb3dd" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d176879" data-id="d176879" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-042ef48 elementor-widget elementor-widget-image-carousel" data-id="042ef48" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;10&quot;,&quot;slides_to_show_mobile&quot;:&quot;5&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;slides_to_scroll_mobile&quot;:&quot;5&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;autoplay_speed&quot;:1000,&quot;slides_to_show_tablet&quot;:&quot;8&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper">
+				<div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo22" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo22-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo22-150x150.png" alt="logo22" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo5" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo5-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo5-150x150.png" alt="logo5" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo25" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo25-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo25-150x150.png" alt="logo25" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo20" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo20-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo20-150x150.png" alt="logo20" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo21" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo21-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo21-150x150.png" alt="logo21" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo23" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo23-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo23-150x150.png" alt="logo23" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo10" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo10-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo10-150x150.png" alt="logo10" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo26" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo26-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo26-150x150.png" alt="logo26" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo14" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo14-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo14-150x150.png" alt="logo14" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo2" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo2-150x150.jpg" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo2-150x150.jpg" alt="logo2" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo33" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo33-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo33-150x150.png" alt="logo33" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo6" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo6-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo6-150x150.png" alt="logo6" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo30" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo30-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo30-150x150.png" alt="logo30" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo3" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo3-150x150.jpg" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo3-150x150.jpg" alt="logo3" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo35" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo35-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo35-150x150.png" alt="logo35" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo8" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo8-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo8-150x150.png" alt="logo8" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo18" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo18-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo18-150x150.png" alt="logo18" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo27" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo27-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo27-150x150.png" alt="logo27" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo12" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo12-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo12-150x150.png" alt="logo12" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo4" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo4-150x150.jpg" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo4-150x150.jpg" alt="logo4" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo7" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo7-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo7-150x150.png" alt="logo7" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo9" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo9-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo9-150x150.png" alt="logo9" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo11" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo11-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo11-150x150.png" alt="logo11" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo1" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo1-150x150.jpg" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo1-150x150.jpg" alt="logo1" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo13" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo13-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo13-150x150.png" alt="logo13" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo15" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo15-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo15-150x150.png" alt="logo15" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo16" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo16-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo16-150x150.png" alt="logo16" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo17" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo17-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo17-150x150.png" alt="logo17" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo19" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo19-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo19-150x150.png" alt="logo19" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo24" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo24-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo24-150x150.png" alt="logo24" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo28" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo28-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo28-150x150.png" alt="logo28" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo29" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo29-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo29-150x150.png" alt="logo29" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo31" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo31-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo31-150x150.png" alt="logo31" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo32" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo32-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo32-150x150.png" alt="logo32" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo34" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo34-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo34-150x150.png" alt="logo34" /></noscript></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="logo36" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo36-150x150.png" /><noscript><img class="swiper-slide-image" src="https://kronoxseguridad.es/wp-content/uploads/2020/11/logo36-150x150.png" alt="logo36" /></noscript></figure></div>			</div>
+																</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-31ac0b6 elementor-section-stretched elementor-reverse-mobile elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="31ac0b6" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a253e9" data-id="6a253e9" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c7ae59f elementor-widget elementor-widget-text-editor" data-id="c7ae59f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><strong>KRONOX SEGURIDAD</strong> tu empresa de Seguridad, prestamos nuestros servicios en toda la <strong>Comunidad Valenciana</strong>. Número de autorización Autonómica <strong>D.G.P 4457.</strong></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-dc5b810 elementor-widget elementor-widget-heading" data-id="dc5b810" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">KRONOX SEGURIDAD</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-af08fc1 elementor-widget elementor-widget-heading" data-id="af08fc1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Tu empresa de seguridad de la Comunidad Valenciana</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4509897 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="4509897" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2b424fa elementor-widget elementor-widget-text-editor" data-id="2b424fa" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Porque lo que más nos importa es la seguridad de los nuestros, y <b>KRONOX SEGURIDAD</b> te la garantiza como resultado de su cobertura global, experiencia contrastada y calidad necesaria.</p><p>Queremos aportarte <b>tranquilidad</b>, para que tu negocio del mismo modo siga creciendo. Dejando en nuestras manos la Seguridad y Vigilancia de aquello que ciertamente te importa, tanto en tu <b>empresa</b>, como en tu <b>hogar, y sobre todo, en los tuyos.</b><b></b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-73084ef" data-id="73084ef" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-894ada8 elementor-widget elementor-widget-image" data-id="894ada8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="900" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20900%20600'%3E%3C/svg%3E" class="attachment-large size-large" alt="coche_kronox" data-lazy-srcset="https://kronoxseguridad.es/wp-content/uploads/2020/05/coche.jpg 900w, https://kronoxseguridad.es/wp-content/uploads/2020/05/coche-300x200.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/05/coche-768x512.jpg 768w" data-lazy-sizes="(max-width: 900px) 100vw, 900px" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/05/coche.jpg" /><noscript><img width="900" height="600" src="https://kronoxseguridad.es/wp-content/uploads/2020/05/coche.jpg" class="attachment-large size-large" alt="coche_kronox" srcset="https://kronoxseguridad.es/wp-content/uploads/2020/05/coche.jpg 900w, https://kronoxseguridad.es/wp-content/uploads/2020/05/coche-300x200.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/05/coche-768x512.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" /></noscript>											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c522339 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-invisible" data-id="c522339" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6e945c7" data-id="6e945c7" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-55c29da elementor-headline--style-rotate elementor-widget elementor-widget-animated-headline" data-id="55c29da" data-element_type="widget" data-settings="{&quot;headline_style&quot;:&quot;rotate&quot;,&quot;rotating_text&quot;:&quot;tu negocio\ntu vivienda\nlos tuyos&quot;,&quot;animation_type&quot;:&quot;typing&quot;}" data-widget_type="animated-headline.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-headline elementor-headline-animation-type-typing elementor-headline-letters">
+							<span class="elementor-headline-plain-text elementor-headline-text-wrapper">" Expertos en tu seguridad y la de</span>
+						<span class="elementor-headline-dynamic-wrapper elementor-headline-text-wrapper"></span>
+							<span class="elementor-headline-plain-text elementor-headline-text-wrapper">"</span>
+					</h2>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4a484df elementor-section-stretched elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4a484df" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7cbe937" data-id="7cbe937" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c40fd20 elementor-widget elementor-widget-heading" data-id="c40fd20" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Cobertura total KRONOX SEGURIDAD</h3>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-b6f99d0" data-id="b6f99d0" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-0cee9b7 elementor-align-center elementor-widget elementor-widget-button" data-id="0cee9b7" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://kronoxseguridad.es/index.php/presupuesto/" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Pedir Presupuesto</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-74f4217" data-id="74f4217" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-be87fc5 elementor-widget elementor-widget-heading" data-id="be87fc5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">O llámanos al 653 351 898</h5>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d31f3e7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d31f3e7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d57ed58" data-id="d57ed58" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2f1d885 elementor-widget elementor-widget-image" data-id="2f1d885" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="900" height="506" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20900%20506'%3E%3C/svg%3E" class="attachment-large size-large" alt="cobertura" data-lazy-srcset="https://kronoxseguridad.es/wp-content/uploads/2020/05/cobertura.jpg 900w, https://kronoxseguridad.es/wp-content/uploads/2020/05/cobertura-300x169.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/05/cobertura-768x432.jpg 768w" data-lazy-sizes="(max-width: 900px) 100vw, 900px" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/05/cobertura.jpg" /><noscript><img width="900" height="506" src="https://kronoxseguridad.es/wp-content/uploads/2020/05/cobertura.jpg" class="attachment-large size-large" alt="cobertura" srcset="https://kronoxseguridad.es/wp-content/uploads/2020/05/cobertura.jpg 900w, https://kronoxseguridad.es/wp-content/uploads/2020/05/cobertura-300x169.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/05/cobertura-768x432.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" /></noscript>											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c3c8621 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-invisible" data-id="c3c8621" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-69a96ea" data-id="69a96ea" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-dc889d7 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="dc889d7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">NUESTROS SERVICIOS</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-53b9c53 elementor-widget elementor-widget-text-editor" data-id="53b9c53" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h3 style="text-align: center;"><b>Kronox Seguridad, tu empresa de seguridad y vigilancia</b> de la Comunidad Valenciana</h3></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-57fedc7c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="57fedc7c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-7d3c5ba2" data-id="7d3c5ba2" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-47a4209 elementor-invisible elementor-widget elementor-widget-image" data-id="47a4209" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="rondas" data-lazy-srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/rondas.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/rondas-150x150.jpg 150w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/09/rondas-300x300.jpg" /><noscript><img width="300" height="300" src="https://kronoxseguridad.es/wp-content/uploads/2020/09/rondas-300x300.jpg" class="attachment-medium size-medium" alt="rondas" srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/rondas.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/rondas-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-695005ab" data-id="695005ab" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-68338edf elementor-invisible elementor-widget elementor-widget-image" data-id="68338edf" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="publicos" data-lazy-srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/publicos.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/publicos-150x150.jpg 150w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/09/publicos-300x300.jpg" /><noscript><img width="300" height="300" src="https://kronoxseguridad.es/wp-content/uploads/2020/09/publicos-300x300.jpg" class="attachment-medium size-medium" alt="publicos" srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/publicos.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/publicos-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-7657d045" data-id="7657d045" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2f29a1f5 elementor-invisible elementor-widget elementor-widget-image" data-id="2f29a1f5" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="superficies" data-lazy-srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/superficies.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/superficies-150x150.jpg 150w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/09/superficies-300x300.jpg" /><noscript><img width="300" height="300" src="https://kronoxseguridad.es/wp-content/uploads/2020/09/superficies-300x300.jpg" class="attachment-medium size-medium" alt="superficies" srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/superficies.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/superficies-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4152026 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4152026" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d0ca87d" data-id="d0ca87d" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-13bb090 elementor-invisible elementor-widget elementor-widget-image" data-id="13bb090" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="urbanizaciones" data-lazy-srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/urbanizaciones.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/urbanizaciones-150x150.jpg 150w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/09/urbanizaciones-300x300.jpg" /><noscript><img width="300" height="300" src="https://kronoxseguridad.es/wp-content/uploads/2020/09/urbanizaciones-300x300.jpg" class="attachment-medium size-medium" alt="urbanizaciones" srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/urbanizaciones.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/urbanizaciones-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e5bc204" data-id="e5bc204" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1d5441d elementor-invisible elementor-widget elementor-widget-image" data-id="1d5441d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="desinfeccion" data-lazy-srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/desinfeccion.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/desinfeccion-150x150.jpg 150w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/09/desinfeccion-300x300.jpg" /><noscript><img width="300" height="300" src="https://kronoxseguridad.es/wp-content/uploads/2020/09/desinfeccion-300x300.jpg" class="attachment-medium size-medium" alt="desinfeccion" srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/desinfeccion.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/desinfeccion-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-5d2eb34" data-id="5d2eb34" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4d5cd41 elementor-invisible elementor-widget elementor-widget-image" data-id="4d5cd41" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="acuda" data-lazy-srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/acuda.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/acuda-150x150.jpg 150w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/09/acuda-300x300.jpg" /><noscript><img width="300" height="300" src="https://kronoxseguridad.es/wp-content/uploads/2020/09/acuda-300x300.jpg" class="attachment-medium size-medium" alt="acuda" srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/acuda.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/acuda-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-84ea5aa elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="84ea5aa" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-b34a035" data-id="b34a035" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d22c71c elementor-invisible elementor-widget elementor-widget-image" data-id="d22c71c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="ocio" data-lazy-srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/ocio.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/ocio-150x150.jpg 150w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/09/ocio-300x300.jpg" /><noscript><img width="300" height="300" src="https://kronoxseguridad.es/wp-content/uploads/2020/09/ocio-300x300.jpg" class="attachment-medium size-medium" alt="ocio" srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/ocio.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/ocio-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-b3fa2fa" data-id="b3fa2fa" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-cbb15f5 elementor-invisible elementor-widget elementor-widget-image" data-id="cbb15f5" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="eventos" data-lazy-srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/eventos.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/eventos-150x150.jpg 150w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/09/eventos-300x300.jpg" /><noscript><img width="300" height="300" src="https://kronoxseguridad.es/wp-content/uploads/2020/09/eventos-300x300.jpg" class="attachment-medium size-medium" alt="eventos" srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/eventos.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/eventos-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-0b56c2e" data-id="0b56c2e" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-8a7eea9 elementor-invisible elementor-widget elementor-widget-image" data-id="8a7eea9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="poligonos" data-lazy-srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/poligonos.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/poligonos-150x150.jpg 150w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/09/poligonos-300x300.jpg" /><noscript><img width="300" height="300" src="https://kronoxseguridad.es/wp-content/uploads/2020/09/poligonos-300x300.jpg" class="attachment-medium size-medium" alt="poligonos" srcset="https://kronoxseguridad.es/wp-content/uploads/2020/09/poligonos.jpg 300w, https://kronoxseguridad.es/wp-content/uploads/2020/09/poligonos-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-555b58b elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-invisible" data-id="555b58b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5b64cb6" data-id="5b64cb6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2d158e4 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="2d158e4" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">NUESTRO PERSONAL</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-90b2226 elementor-widget elementor-widget-heading" data-id="90b2226" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Kronox Seguridad tu empresa de seguridad de la Comunidad Valenciana</h3>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-489c6a1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="489c6a1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-30c4d0c" data-id="30c4d0c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-476ef6a animated-slow elementor-cta--skin-classic elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-invisible elementor-widget elementor-widget-call-to-action" data-id="476ef6a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="call-to-action.default">
+				<div class="elementor-widget-container">
+					<div  class="elementor-cta">
+					<div class="elementor-cta__bg-wrapper">
+				<div data-bg="https://kronoxseguridad.es/wp-content/uploads/2020/05/89285095_3012539588791234_8255651815563984896_n.jpg" class="elementor-cta__bg elementor-bg rocket-lazyload" style=""></div>
+				<div class="elementor-cta__bg-overlay"></div>
+			</div>
+							<div class="elementor-cta__content">
+				
+									<h2 class="elementor-cta__title elementor-cta__content-item elementor-content-item">
+						Servicio de Seguridad					</h2>
+				
+									<div class="elementor-cta__description elementor-cta__content-item elementor-content-item">
+						Seguridad de empresas, centros comerciales, polígonos y urbanizaciones.					</div>
+				
+									<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item ">
+					<a class="elementor-cta__button elementor-button elementor-size-sm" href="https://kronoxseguridad.es/index.php/contacto/">
+						Más información					</a>
+					</div>
+							</div>
+							<div class="elementor-ribbon">
+				<div class="elementor-ribbon-inner">SEGURIDAD</div>
+			</div>
+				</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-6280383" data-id="6280383" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6f0f1e0 animated-slow elementor-cta--skin-classic elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-invisible elementor-widget elementor-widget-call-to-action" data-id="6f0f1e0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="call-to-action.default">
+				<div class="elementor-widget-container">
+					<div  class="elementor-cta">
+					<div class="elementor-cta__bg-wrapper">
+				<div data-bg="https://kronoxseguridad.es/wp-content/uploads/2020/05/seaweb.jpg" class="elementor-cta__bg elementor-bg rocket-lazyload" style=""></div>
+				<div class="elementor-cta__bg-overlay"></div>
+			</div>
+							<div class="elementor-cta__content">
+				
+									<h2 class="elementor-cta__title elementor-cta__content-item elementor-content-item">
+						S.E.A.					</h2>
+				
+									<div class="elementor-cta__description elementor-cta__content-item elementor-content-item">
+						Personal para el control del Servicio Específico de Admisión S.E.A.					</div>
+				
+									<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item ">
+					<a class="elementor-cta__button elementor-button elementor-size-sm" href="https://kronoxseguridad.es/index.php/contacto/">
+						Más información					</a>
+					</div>
+							</div>
+							<div class="elementor-ribbon">
+				<div class="elementor-ribbon-inner">S.E.A.</div>
+			</div>
+				</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-311848c" data-id="311848c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ac06748 animated-slow elementor-cta--skin-classic elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-invisible elementor-widget elementor-widget-call-to-action" data-id="ac06748" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="call-to-action.default">
+				<div class="elementor-widget-container">
+					<div  class="elementor-cta">
+					<div class="elementor-cta__bg-wrapper">
+				<div data-bg="https://kronoxseguridad.es/wp-content/uploads/2020/05/auxiliaresweb.jpg" class="elementor-cta__bg elementor-bg rocket-lazyload" style=""></div>
+				<div class="elementor-cta__bg-overlay"></div>
+			</div>
+							<div class="elementor-cta__content">
+				
+									<h2 class="elementor-cta__title elementor-cta__content-item elementor-content-item">
+						Servicios Auxiliares					</h2>
+				
+									<div class="elementor-cta__description elementor-cta__content-item elementor-content-item">
+						Servicios auxiliares  a las funciones de seguridad; auxiliares, taquillas, aforo.					</div>
+				
+									<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item ">
+					<a class="elementor-cta__button elementor-button elementor-size-sm" href="https://kronoxseguridad.es/index.php/contacto/">
+						Más información					</a>
+					</div>
+							</div>
+							<div class="elementor-ribbon">
+				<div class="elementor-ribbon-inner">AUXILIARES</div>
+			</div>
+				</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-49802dd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="49802dd" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a4a1dc6" data-id="a4a1dc6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-35a679b elementor-widget elementor-widget-heading" data-id="35a679b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Kronox Servicios De Vigilancia Y Protección S.L.</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-db75429 elementor-widget elementor-widget-text-editor" data-id="db75429" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span style="color: #ffffff;">Pensada, creada y especializada con todo esto, en la Provincia de&nbsp;<a style="color: #ffffff;" href="http://www.castello.es/" target="_blank" rel="noopener">Castellón</a>.&nbsp;Ofrecemos esa <strong>tranquilidad</strong> en el apartado de la seguridad, que claro está toda empresa necesita para trabajar. Kronox Seguridad es por ello que aporta fiabilidad, con su personal sobre todo altamente cualificado. Personal que del mismo modo está en continua formación y mejora, en un mundo tan cambiante como el actual. Un mundo en el que como resultado es necesaria una constante actualización tanto de protocolos como de tecnologías.</span></p>
+<p><span style="color: #ffffff;">Así mismo, dentro de nuestras actuales funciones, <b><u>KRONOX SEGURIDAD realiza un control de accesos complementario</u></b>. Sobre todo tomando la temperatura de los clientes y realizando desinfecciones periódicas, como resultado del reciente protocolo frente al COVID-19 implementado.</span></p>
+<p><span style="color: #ffffff;">Si bien Kronox Seguridad es capaz de un desplazamiento inmediato dentro de Castellón, también nuestros servicios los extendemos a toda la Comunidad Valenciana. No obstante, nuestra empresa dispone de autorización Autonómica Nº D.G.P 4457. Probablemente ese ámbito de acción concentrado en la Comunidad Valenciana seguramente sea lo que nos proporciona esa capacidad de reacción inmediata. Algo ciertamente necesario para la calidad máxima del servicio.</span></p>
+<p><span style="color: #ffffff;">Por esto, como resultado de la unión de fiabilidad y seguridad, te animamos a pedir <b><u>presupuesto sin compromiso</u></b> en el siguiente&nbsp;<a style="color: #ffffff;" href="https://kronoxseguridad.es/index.php/contacto/" target="_blank" rel="noopener">formulario</a>.</span></p>
+<p></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-499d26c elementor-widget elementor-widget-text-editor" data-id="499d26c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4 style="text-align: center;"> “Kronox Seguidad es la empresa especializada en su seguridad y la de los suyos”</h4></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		
+	</div>
+</div>
+
+
+<div class="site-footer">
+				<div id="footer-widgets" class="site footer-widgets">
+				<div class="footer-widgets-container grid-container grid-parent">
+					<div class="inside-footer-widgets">
+							<div class="footer-widget-1 grid-parent grid-33 tablet-grid-50 mobile-grid-100">
+		<aside id="text-3" class="widget inner-padding widget_text">			<div class="textwidget"><p>Calle Rafalafena 39</p>
+<p>Planta 1ª, local 3</p>
+<p>12003 Castellón</p>
+</div>
+		</aside>	</div>
+		<div class="footer-widget-2 grid-parent grid-33 tablet-grid-50 mobile-grid-100">
+		<aside id="media_image-5" class="widget inner-padding widget_media_image"><img width="300" height="73" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%2073'%3E%3C/svg%3E" class="image wp-image-19  attachment-medium size-medium" alt="icono_kronox" style="max-width: 100%; height: auto;" data-lazy-srcset="https://kronoxseguridad.es/wp-content/uploads/2020/05/Kronox_logo_menu-300x73.png 300w, https://kronoxseguridad.es/wp-content/uploads/2020/05/Kronox_logo_menu.png 611w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://kronoxseguridad.es/wp-content/uploads/2020/05/Kronox_logo_menu-300x73.png" /><noscript><img width="300" height="73" src="https://kronoxseguridad.es/wp-content/uploads/2020/05/Kronox_logo_menu-300x73.png" class="image wp-image-19  attachment-medium size-medium" alt="icono_kronox" style="max-width: 100%; height: auto;" srcset="https://kronoxseguridad.es/wp-content/uploads/2020/05/Kronox_logo_menu-300x73.png 300w, https://kronoxseguridad.es/wp-content/uploads/2020/05/Kronox_logo_menu.png 611w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></aside>	</div>
+		<div class="footer-widget-3 grid-parent grid-33 tablet-grid-50 mobile-grid-100">
+			</div>
+						</div>
+				</div>
+			</div>
+					<footer class="site-info" itemtype="https://schema.org/WPFooter" itemscope>
+			<div class="inside-site-info grid-container grid-parent">
+								<div class="copyright-bar">
+					&copy; 2021 KRONOX SEGURIDAD | RNSP 4457 | info@kronoxseguridad.es				</div>
+			</div>
+		</footer>
+		</div>
+
+
+<div class="joinchat joinchat--right" data-settings='{"telephone":"34653351898","mobile_only":false,"button_delay":2,"whatsapp_web":false,"message_views":2,"message_delay":4,"message_badge":false,"message_send":"","message_hash":"c372854c"}'>
+	<div class="joinchat__button">
+		<div class="joinchat__button__open"></div>
+								<div class="joinchat__button__sendtext">Abrir chat</div>
+							<svg class="joinchat__button__send" viewbox="0 0 400 400" stroke-linecap="round" stroke-width="33">
+				<path class="joinchat_svg__plain" d="M168.83 200.504H79.218L33.04 44.284a1 1 0 0 1 1.386-1.188L365.083 199.04a1 1 0 0 1 .003 1.808L34.432 357.903a1 1 0 0 1-1.388-1.187l29.42-99.427"/>
+				<path class="joinchat_svg__chat" d="M318.087 318.087c-52.982 52.982-132.708 62.922-195.725 29.82l-80.449 10.18 10.358-80.112C18.956 214.905 28.836 134.99 81.913 81.913c65.218-65.217 170.956-65.217 236.174 0 42.661 42.661 57.416 102.661 44.265 157.316"/>
+			</svg>
+							</div>
+			<div class="joinchat__box">
+			<div class="joinchat__header">
+									<a class="joinchat__powered" href="https://join.chat/es/powered/?site=Kronox+Seguridad&url=https%3A%2F%2Fkronoxseguridad.es" rel="nofollow noopener" target="_blank">
+						Powered by <svg viewbox="0 0 1424 318"><title>Join.chat</title><path d="M171 7c1.3 0 3.2.6 5.5 1.8 2.3 1.1 3.5 2.3 3.5 3.4v1.2l-.3 3.6-.5 8a947.3 947.3 0 00-2 56v37.2l.2 15.9.2 23.7c.2 12.3.2 22.8.2 31.4 0 22-5.8 42.8-17.4 62.5-11.6 19.7-27.9 35.7-48.7 48S68 318 43.3 318c-14 0-24.6-2.7-32-8.2A27 27 0 010 286.6a27 27 0 017-18.7c4.7-5.2 11-7.8 18.8-7.8 6.9 0 13.1 2 18.7 6 5.4 3.8 9.7 7.9 12.8 12.4l.3.5A96.8 96.8 0 0068 291.9c3.7 4 7.2 5.9 10.3 5.9 4 0 7.1-2 9.6-6s4.5-11.8 6.2-23.3v-.6a363 363 0 002.5-47.5V104.2l.1-.1V76.3c0-1.6-.2-2.6-.6-3V73c-.5-.4-1.4-.8-3-1.2l-.5-.2-11.9-2c-1.9-.3-2.8-2.5-2.8-6.7 0-3.8 1-6 2.8-6.7 27-10.5 56.2-26.6 87.5-48.3a6 6 0 012.8-1zm1205 43c3.9 0 6 .8 6.1 2.5 1.3 9.6 2.1 21.8 2.5 36.6h.5a1888.3 1888.3 0 0033.7-.3h.8c1.7 0 2.8.7 3.4 2s1 4 1 8-.3 6.6-1 7.7c-.6 1.2-1.7 1.8-3.4 1.8h-1.9c-15.1 0-26-.2-32.8-.4v62c0 13.8 1.7 23.3 5.1 28.5 3.4 5.3 8.8 7.9 16 7.9 1.4 0 3-.3 4.6-1 1.7-.6 2.7-.9 3.1-.9 1.9 0 3.8 1 5.6 3 1.9 2 2.5 3.7 1.9 5.1a62.9 62.9 0 01-22 27.8 59.2 59.2 0 01-36.3 11.7c-16.1 0-28.4-4.9-36.9-14.6-3.3-3.8-6-8.1-8-13l-.4.4-.6.5c-17.4 17.1-33 25.7-46.7 25.7-18.7 0-31.7-13-39.2-39.2-5 12.3-12 22-21 28.9a49.2 49.2 0 01-30.7 10.3 37.6 37.6 0 01-29-12.5 44 44 0 01-11.4-30.7c0-9.5 1.6-17.2 5-23a41 41 0 0117-15.3c13.2-7 35.4-13.8 66.6-20.8l1-.2V138c0-10.8-1.7-19.3-5-25.5-3.3-6.4-7.9-9.6-13.7-9.6-2.8 0-4.4 1.6-5 4.7v.3l-2.1 14.8-.1.6a38.4 38.4 0 01-11.1 24c-6 5.4-13.5 8.1-22.4 8.1-5.2 0-9.6-1.5-13.1-4.6a16 16 0 01-5.3-12.7c0-10.7 8.8-21.7 26.3-33s37.5-17 60-17c41 0 61.7 15.2 62.1 45.7V192c0 4.6.3 8.4.7 11.4.4 3 1 5.4 1.7 7 .7 1.7 1.7 2.7 2.8 3.1 1.1.5 2.3.5 3.6 0a21 21 0 004.6-2.4l1.7-1c-.7-4-1-8.4-1-13v-85.8c0-1.5-.2-2.4-.6-2.8-.4-.5-1.4-.9-3-1.3l-11.2-1.6c-1.7-.2-2.5-2.3-2.5-6.2 0-4.4.8-6.7 2.5-7 15.9-3.7 29-8.6 39.3-14.6a144 144 0 0031-25.4c1.7-1.7 4-2.5 7.1-2.5zM290 88c27.5 0 49.7 7.2 66.6 21.6a73.1 73.1 0 0125.3 58.7c0 25.7-9 46-27 60.6S313.3 251 283.9 251c-27.5 0-49.7-7.2-66.6-21.6a73.1 73.1 0 01-25.3-58.7c0-25.7 9-46 27-60.6S260.8 88 290.1 88zm588.2 0c18.5 0 33.4 4.1 44.5 12.3 11.2 8.3 16.7 17.9 16.7 28.8 0 6.1-2.1 11.2-6.5 15.2s-9.9 6-16.7 6c-13 0-24-8.5-33-25.6-5.6-10.5-10-17.3-13-20.5s-6.1-4.8-9.7-4.8c-7.4 0-11 5.5-11 16.4 0 13.6 3 28.2 9.2 44a108 108 0 0023.2 37.5c8 8 16.5 12 25.4 12 7.6 0 15.3-3.3 23.2-9.9 1.4-1 3.5-.6 6.1 1.3 2.7 1.8 3.8 3.6 3.1 5.2a70.1 70.1 0 01-28.7 31.8 89 89 0 01-48.6 13.3 77.6 77.6 0 01-57.2-22.2 78.4 78.4 0 01-22.3-58c0-24.6 9-44.5 27-59.8 17.9-15.3 40.6-23 68.3-23zm-402.4-2.8c1.2 0 2.9.5 5 1.6 2 1 3 2 3 3.1l-.6 9.7a784.6 784.6 0 00-1.9 53.2v76.5c.1 2.2 1.3 3.6 3.5 4l.2.1 10.5 2.2.5.1h.4l10.5-2.2h.3c2.3-.5 3.4-2 3.4-4.4v-81.9c0-1.3-.2-2.1-.6-2.5-.4-.4-1.4-.8-3-1.3l-10.6-1.8h-.2c-1.5-.4-2.3-2.3-2.3-6 0-3.2.8-5.2 2.5-5.8a364 364 0 0074.3-42.9c.9-.6 1.7-.9 2.5-.9 1.3 0 3 .5 5 1.6s3 2 3 3v.1c0 .8-.1 4.9-.5 12a392.8 392.8 0 00-.7 21.8 64.5 64.5 0 0121.6-26 56.2 56.2 0 0134-10.6c16.2 0 29 4.6 38.5 14a52.6 52.6 0 0114 39v88.5c.2 2.3 1.4 3.7 3.8 4l10.5 2.3h.2c1.5.3 2.3 2.6 2.3 6.8 0 4.3-.8 6.5-2.5 6.5l-19-1c-11.7-.8-22-1.2-30.9-1.2s-18.8.4-29.9 1.1l-18 1.1c-1.7 0-2.6-2.2-2.6-6.5 0-4 .9-6.2 2.5-6.8l8.4-2.2.3-.1c1.5-.4 2.4-.8 2.8-1.3.4-.5.6-1.5.6-3v-61.9c0-14-2-24-6-29.7-4-5.8-11.2-8.7-21.6-8.7-3 0-5.3.4-6.8 1v99.6c0 1.3.2 2.2.6 2.7.4.5 1.5 1 3.1 1.4l8.4 2.1.1.1c1.6.7 2.4 3 2.4 6.8 0 4.3-.9 6.5-2.5 6.5l-18-1a454.5 454.5 0 00-60.7 0 868.8 868.8 0 01-20 1h-.2l-18.8-1c-11.6-.8-21.7-1.2-30.5-1.2s-19 .4-30.7 1.1l-19 1.1c-1.7 0-2.5-2.2-2.5-6.6 0-4.2.8-6.5 2.3-6.8h.2l10.4-2.2h.2c2.2-.5 3.4-1.9 3.5-4.1v-82.6c0-1.3-.3-2.1-.6-2.5-.4-.4-1.3-.8-2.8-1.2h-.3l-10.4-2h-.2c-1.5-.3-2.3-2.2-2.3-5.9 0-3.3.8-5.3 2.5-5.9a380 380 0 0077-43c1-.7 1.8-1 2.4-1zM1014.7 10c1.3 0 3 .5 5 1.5s3.1 2 3.1 3.1l-.6 9.5a758.2 758.2 0 00-1.9 54.5v42.7l.4-.6c5.1-8.8 12.2-16.1 21.3-22.1a56 56 0 0131.6-9.2c16.3 0 29.2 4.6 38.6 13.8a51.8 51.8 0 0114 38.8v87.6c.2 2.3 1.4 3.6 3.8 4l10.5 2.2h.2c1.5.3 2.3 2.6 2.3 6.7 0 4.3-.8 6.5-2.5 6.5l-19-1c-11.7-.8-22-1.2-30.9-1.2s-18.8.4-29.9 1.1l-18 1.1c-1.7 0-2.6-2.2-2.6-6.5 0-3.9.9-6.1 2.5-6.7l8.4-2.2h.3c1.5-.4 2.4-.9 2.8-1.4.4-.5.6-1.5.6-2.9V168c0-14-2-23.8-6-29.4-4-5.8-11.2-8.6-21.6-8.6-3 0-5.3.3-6.8.9v98.7c0 1.3.2 2.2.6 2.6.4.5 1.5 1 3.1 1.4l8.4 2.2h.1c1.6.7 2.4 3 2.4 6.7 0 4.3-.9 6.5-2.5 6.5l-18-1a459 459 0 00-60.7 0l-19.2 1c-1.7 0-2.5-2.2-2.5-6.5s.8-6.5 2.5-6.7l10.5-2.2h.3c2.3-.5 3.4-2 3.4-4.3V70.6c0-1.3-.2-2-.6-2.5-.4-.4-1.4-.8-3-1.2l-10.6-1.8h-.2c-1.5-.4-2.3-2.3-2.3-5.9 0-3.3.8-5.2 2.5-5.8 24-9.3 49.9-23.4 77.8-42.5 1-.6 1.8-.9 2.4-.9zm-743 90c-7.6 0-11.4 6.7-11.4 20.3 0 16.6 3.7 38.3 11.2 65.2 7.4 26.9 14.5 43.7 21.1 50.3 3.1 3 6.3 4.6 9.7 4.6 7.6 0 11.5-6.8 11.5-20.4 0-16.5-3.8-38.2-11.2-65.2-7.5-26.9-14.5-43.6-21.2-50.2-3.1-3.1-6.3-4.7-9.6-4.7zm939.2 64.9c-6 0-9.1 4.3-9.1 12.8 0 8.4 2.4 15.9 7 22.4 4.8 6.6 10 9.8 15.4 9.8 2.2 0 4-.6 5.4-2l.3-.1v-22.3a20.6 20.6 0 00-6.7-14.8c-4-3.9-8-5.8-12.3-5.8zM450.6 0a34 34 0 0125.5 10.3c6.7 6.9 10 15.4 10 25.7a35 35 0 01-35.5 36 34 34 0 01-25.5-10.4 35.3 35.3 0 01-10-25.6c0-10.3 3.3-18.8 10-25.7A34 34 0 01450.6 0zM748 249a31 31 0 0022-8.2c6-5.5 9-12.2 9-20.3s-3-14.8-8.9-20.3-13.2-8.2-22-8.2-16.3 2.7-22.2 8.2-8.9 12.2-8.9 20.3 3 14.8 8.9 20.3 13.3 8.2 22.1 8.2z"/></svg>
+					</a>
+								<div class="joinchat__close" aria-label="Cerrar"></div>
+			</div>
+			<div class="joinchat__box__scroll">
+				<div class="joinchat__box__content">
+					<div class="joinchat__message">¿Puedo resolverte alguna duda sobre Seguridad y Vigilancia?<br>¿Quieres saber como te ayudamos contra el COVID-19?</div>				</div>
+			</div>
+		</div>
+		<svg height="0" width="0"><defs><clipPath id="joinchat__message__peak"><path d="M17 25V0C17 12.877 6.082 14.9 1.031 15.91c-1.559.31-1.179 2.272.004 2.272C9.609 18.182 17 18.088 17 25z"/></clipPath></defs></svg>
+</div>
+<script id='superpwa-register-sw-js-extra'>
+var superpwa_sw = {"url":"\/superpwa-sw.js","disable_addtohome":"0","enableOnDesktop":""};
+</script>
+
+<script id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script id='rocket-delay-js-js-after'>
+(function() {
+"use strict";var e=function(){function n(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}return function(e,t,r){return t&&n(e.prototype,t),r&&n(e,r),e}}();function n(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function r(e,t){n(this,r),this.attrName="data-rocketlazyloadscript",this.browser=t,this.options=this.browser.options,this.triggerEvents=e,this.userEventListener=this.triggerListener.bind(this)}return e(r,[{key:"init",value:function(){this._addEventListener(this)}},{key:"reset",value:function(){this._removeEventListener(this)}},{key:"_addEventListener",value:function(t){this.triggerEvents.forEach(function(e){return window.addEventListener(e,t.userEventListener,t.options)})}},{key:"_removeEventListener",value:function(t){this.triggerEvents.forEach(function(e){return window.removeEventListener(e,t.userEventListener,t.options)})}},{key:"_loadScriptSrc",value:function(){var r=this,e=document.querySelectorAll("script["+this.attrName+"]");0!==e.length&&Array.prototype.slice.call(e).forEach(function(e){var t=e.getAttribute(r.attrName);e.setAttribute("src",t),e.removeAttribute(r.attrName)}),this.reset()}},{key:"triggerListener",value:function(){this._loadScriptSrc(),this._removeEventListener(this)}}],[{key:"run",value:function(){RocketBrowserCompatibilityChecker&&new r(["keydown","mouseover","touchmove","touchstart"],new RocketBrowserCompatibilityChecker({passive:!0})).init()}}]),r}();t.run();
+}());
+</script>
+<script id='rocket-preload-links-js-extra'>
+var RocketPreloadLinksConfig = {"excludeUris":"\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/kronoxseguridad.es","onHoverDelay":"100","rateThrottle":"3"};
+</script>
+<script id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<!--[if lte IE 11]>
+<script src='https://kronoxseguridad.es/wp-content/themes/generatepress/assets/js/classList.min.js?ver=3.0.2' id='generate-classlist-js'></script>
+<![endif]-->
+<script id='generate-main-js-extra'>
+var generatepressMenu = {"toggleOpenedSubMenus":"1","openSubMenuLabel":"Abrir el submen\u00fa","closeSubMenuLabel":"Cerrar el submen\u00fa"};
+</script>
+
+
+
+
+
+
+
+<script id='elementor-pro-frontend-js-before'>
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/kronoxseguridad.es\/wp-admin\/admin-ajax.php","nonce":"2b7c5686bd","i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"es_ES","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/kronoxseguridad.es\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+
+
+
+
+
+
+<script id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false,"isImprovedAssetsLoading":false},"i18n":{"shareOnFacebook":"Compartir en Facebook","shareOnTwitter":"Compartir en Twitter","pinIt":"Pinear","download":"Descargar","downloadImage":"Descargar imagen","fullscreen":"Pantalla completa","zoom":"Zoom","share":"Compartir","playVideo":"Reproducir v\u00eddeo","previous":"Anterior","next":"Siguiente","close":"Cerrar"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.1.1","is_static":false,"experimentalFeatures":[],"urls":{"assets":"https:\/\/kronoxseguridad.es\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":593,"title":"Kronox%20Seguridad%20%E2%80%93%20Vigilantes%20de%20Seguridad","excerpt":"","featuredImage":false}};
+</script>
+
+
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://kronoxseguridad.es/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script>
+<script>"use strict";var wprRemoveCPCSS=function wprRemoveCPCSS(){var elem;document.querySelector('link[data-rocket-async="style"][rel="preload"]')?setTimeout(wprRemoveCPCSS,200):(elem=document.getElementById("rocket-critical-css"))&&"remove"in elem&&elem.remove()};window.addEventListener?window.addEventListener("load",wprRemoveCPCSS):window.attachEvent&&window.attachEvent("onload",wprRemoveCPCSS);</script><script src="https://kronoxseguridad.es/wp-content/cache/min/1/c91866999269b7dd1b2e4ed7e977067f.js" data-minify="1" defer></script><noscript><link rel="stylesheet" href="https://kronoxseguridad.es/wp-content/cache/min/1/46364e85a5fe6103679bd9ec802e69b7.css" media="all" data-minify="1" /><link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.6.1&#038;display=swap' media='all' /></noscript></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1613597853 -->
