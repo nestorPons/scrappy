@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi, user-scalable=no" />
+
+        <meta name='keywords' content='maquillaje, maquilladora , novias, bodas, manicuras, pedicuras, tratamientos faciales, belleza, bienestar'>
+        <meta name='description' content='Centro estético en Castellón de la Plana. Realizamos maquillajes, manicuras, pedicuras y tratamientos faciales. Maquillajes profesionales de novia con aerografo para eventos y bodas.'>
+        <meta name='subject' content='Le Bouquet'>
+        <meta name='copyright' content='Nestor Pons '>
+        <meta name='language' content='ES'>
+        <meta name='robots' content='index,follow'>
+        <meta name='revised' content='2018-12-15'>
+        <meta name='Classification' content='Business'>
+        <meta name='author' content='Néstor Pons, nestorpons@gmail.com'>
+        <meta name='designer' content=''>
+        <meta name='reply-to' content='info@lebouquet.es'>
+        <meta name='owner' content=''>
+        <meta name='url' content='https://www.lebouquet.es'>
+        <meta name='identifier-URL' content='https://www.lebouquet.es'>
+        <meta name='subtitle' content='Centro de belleza en Castellón'>
+        <meta name='target' content='all'>
+        <meta name='HandheldFriendly' content='True'>
+        <meta name='MobileOptimized' content='320'>
+
+        <link rel="alternate" hreflang="es" href="https://www.lebouquet.es">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+        <title>Le Bouquet Centro estetico</title>
+    </head>
+    <body>
+      <a href="/">home</a>
+            <section id="contacto" >
+        <!-- 
+          <div class="head">
+              <img src="/images/tileContacto.jpg"/>
+        </div>
+      -->
+          <h1 class=underline>Formulario de contacto</h1>
+          <div class="contact_us_data">
+            <p>Teléfono : 964 06 39 59</p>
+            <p>Móvil : 646 964 327</p>
+            <p><a class="infomail"></a></p>
+          </div>
+          <div class="line_1"></div>
+          <form id="form2" class="contact_us">
+              
+              <label>Nombre
+                <input type="text" class="fields_contact_us" name="name" required />
+              </label>
+              <label>E-mail
+                <input type="email" class="fields_contact_us" name="email" required/>
+              </label>
+              <label>
+                Dejanos tu mensaje:
+                <textarea name="mens" cols="" rows="5" required></textarea>
+              </label>
+              <label>
+                <button type="submit" class="submit_button">Enviar</button>
+              </label>
+
+          </form>
+
+      </section>
+    </body>
+</html>

@@ -2,46 +2,40 @@
 
 from Modules.Scanner import Scanner
 from Modules.Menu import Menu
-from tabulate import tabulate
+import functionsMain as main
+from Modules.Config import Config
+
 
 menu = Menu('Menú Principal')
-menuOp = Menu('Menú opciones')
-scann = Scanner()
+menuOp = Menu('Menú de opciones')
+menuData = Menu('Menú de datos')
+menuLinks = Menu('Links escaneados')
 
-def showTels(response):
-    print(response[0])
-    print(tabulate(response[1].items(), showindex=True))
+config = Config('config.json')
+scann = Scanner(cache=True, default=config.data())
 
-def exitProgram():
-    print('\nGracias por usar Scrappy')
-    print('Hasta pronto!\n')
+menu.addOption('0', 'Menu opciones', menuOp.start)
+menu.addOption('1', 'Obtener los telefonos', [scann.getData,'tels'], [main.showData, ['ID', 'TELÉFONO', 'COINCIDENCIAS']])
+menu.addOption('2', 'Obtener los emails', [scann.getData, 'emails'], main.showData)
+menu.addOption('3', 'Obtener las imagenes', scann.getImg, main.showImages)
+menu.addOption('8', 'Menú datos sin procesar', menuData.start)
+menu.addOption('9', 'Salir',  menu.exit)
 
-# Menu para cambiar el alcance
-def inputScope(response):
-    print('INPUTSCOPE')
-    actualScope = scann.scope()
-    menuOp.input('Seleccione el alcance deseado de 0-3, actual = {}: '.format(actualScope), scann.scope)
+menuData.addOption('1', 'Ver urls escaneadas', scann.getLinks,main.showLinks)
+menuData.addOption('9', 'Ver los datos', menuData.exit) 
 
-    if actualScope != scann.scope():
-        # Se reescanea para adaptarlo al nuevo scope
-        scann.scanLinks()
-
-menu.addOption('0', 'Opciones', menuOp.start)
-menu.addOption('1', 'Obtener los telefonos', scann.getTels, showTels)
-menu.addOption('2', 'Obtener los emails', scann.viewEmails)
-menu.addOption('5', 'Salir', None, exitProgram)
-
-menuOp.addOption('1', 'Seleccion de alcance', scann.scope, inputScope )
-menuOp.addOption('2', 'Otra opcion menu', scann.scope )
+menuOp.addOption('1', 'Seleccion de alcance', scann.scope, [main.inputScope, [scann, menuOp, config]] )
+menuOp.addOption('9', 'Salir al menú principal', menuOp.exit )
 
 #Solicitamos el objetivo
-t = menu.requestTarget('www.lebouquet.es')
+t = menu.requestTarget(config.data('target'))
+# Se guarda el nuevo objetivo si ha cambiado
+if t != config.data('target') : config.data('target', t)
 scann.iniTarget(t)
 
 # Se inicia el scaneo 
 scann.scanLinks()
 
-while True:
-    # Se muestra el menú y esperamos la respuesta 
-    response = menu.start()
-    if response[0] == 5: break
+
+# Se inicia el menu Principal
+menu.start()

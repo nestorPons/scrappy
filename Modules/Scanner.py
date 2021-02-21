@@ -4,11 +4,15 @@ from progress.bar import Bar, ChargingBar
 
 class Scanner:
         
-    def __init__(self):
+    def __init__(self, cache=False, default = {}):
         self._scope = 0
+        if default: 
+            self._scope = default['scope'] 
+
+        self.cache = cache
         self.links = []
         self.target = ''
-        self.actualTarget = ''
+        self.dataTarget = ''
         self.actualStrKey = ''
         self.data = {}
 
@@ -18,7 +22,7 @@ class Scanner:
 
         self.browser = mechanize.Browser()
         self.browser.set_handle_robots(False)
-        self.browser. set_handle_robots(False)
+        self.browser.set_handle_robots(False)
         self.browser.addheaders = [("User-agent","Mozilla/5.0")]
     
     # Establecemos el objetivo del escaneo
@@ -27,7 +31,7 @@ class Scanner:
             # Se carga la info de la url pasada por el usuario
             self.links.append(url)
             self.loadTarget(url)
-            self.loadData(url)
+            self._loadData(url)
             self.target = url
             if len(self.urlNoLoad) != 0: raise ValueError
 
@@ -42,38 +46,60 @@ class Scanner:
         return self
     
     def loadTarget(self, link):
-        try:
+
+        def get(link, nameFile):
             # Abrimos la pagina objetivo
             self.browser.open(link)
             # Cargamos en el target el texto de la url
-            self.actualTarget = self.browser.response().read().decode("utf-8") 
+            self.dataTarget = self.browser.response().read().decode("utf-8") 
+            try:
+                # Guarda el get en la carpeta caches
+                cache = open('caches/'+nameFile,'+w')
+                cache.write(self.dataTarget)
+            except: 
+                print('Error al cachear el archivo!')
+
+        # Se crea nombre del archivo cache
+        nameFile = re.sub(r'(https|http)+://', '', link).strip()
+        nameFile = re.sub(r'\W','_',nameFile)
+        try:
+            if self.cache:
+                try:
+                    f = open('caches/'+nameFile, 'r')
+                    self.dataTarget = f.read()
+                except:
+                    get(link, nameFile)
+            else:
+                get(link, nameFile)
         except:
+            # Guarda las urls que no se han podido acceder
             self.urlNoLoad.append(link) 
             
         return self   
     
+    # Obtiene los enlaces del objetivo
     def scanLinks(self):
         try:
-            _links = re.findall(r'<a.*?href=.?["|\'](.*?)["|\'?]', self.actualTarget)
+            _links = re.findall(r'<a.*?href=.?["|\'](.*?)["|\'?]', self.dataTarget)
             
             #iniciamos el contador
             bar = Bar('Obteniendo datos:', max= len(_links) )
 
             # Añade todos los links 
             for link in _links:
-                bar.next()    
+                # Construimos la url si el link la tiene dinámica
+                if not re.search(r'^(https|http)+://', link):
+                    link = self.target + '/' + link
+
+                bar.next()   
                 #Filtrado por el nivel de alcance 
                 if self.filterScope(link):
                     # y filtra que no se repitan
                     if link  not in self.links:
-                        #Filtramos y ponemos el dominio si no lo tuviera     
-                        if not re.search('^(https|http)+://', link):
-                            link = self.target + '/' + link
-                    
+                        # se añade al array de links a scanear
                         self.links.append(link)
-
-                    # Extraemos la informacion de las paginas encontradas
-                    self.loadData(link)
+                        # Extraemos la informacion de las paginas encontradas
+                        self._loadData(link)
             
             bar.finish()
             
@@ -88,17 +114,17 @@ class Scanner:
             return url == self.target
         # Escanea los links dentro del dominio
         elif self._scope == 1:
-                return re.search('.*?'+self.target+'.*?', url)
+            match = re.search(r'.*?'+self.target+r'.*?', url) 
+            return match != None
         elif self._scope == 2:
-            pass
+            match = re.search(r'(.*?)\.(.*?)\.(.*?)', url) 
+            return match != None
         elif self._scope == 3:
             pass
-        else:
-            pass
 
-    def loadData(self, url):
+    def _loadData(self, url):
         try:
-            url = url.replace('/imgres?imgurl=','')
+            url = url.replace(r'/imgres?imgurl=','')
             # Cargamos en el array de paginas scaneadas
             self.urls.append(url)
             # Abrimos y cargamos la pagina en variable de trabajo
@@ -107,25 +133,21 @@ class Scanner:
             # Cargamos los datos en data
             dic = {}
             #buscar telefonos  
-            dic['tels'] = re.findall( r'[69][\d]{8}', self.actualTarget.replace(' ', ''))
+            dic['tels'] = re.findall( r'[69][\d]{8}', self.dataTarget.replace(' ', ''))
             #buscar emails  
-            dic['emails'] = re.findall(r'[\w\.-]+@[\w\.-]+', self.actualTarget)
+            dic['emails'] = re.findall(r'[\w\.-]+@[\w]+\.?[a-zA-Z]{2,5}', self.dataTarget)
             #buscar imagenes 
-            dic['img'] = re.findall(r'<\s*img.*?src\s*=\s*["|\'](.*?\.jpg|png|jpeg|gif?)["|\'?]', self.actualTarget)
+            dic['img'] = re.findall(r'<\s*img.*?src\s*=\s*["|\'](.*?\.jpg|png|jpeg|gif?)["|\'?]', self.dataTarget)
 
-            # Cargamos variable data
+            # Guardamos los datos
             self.data[url] = dic
-
+            # print(self.data)
         except:
             # Guardamos array con las dir que no han cargado
             self.noLoads.append(url)      
     
     def getLinks(self):
         return self.links
-       
-    def getEmails(self, key):
-        key = self.checkey(key)
-        return self.data[key]['emails']
     
     def getImages(self, key):
         key = self.checkey(key)
@@ -151,52 +173,36 @@ class Scanner:
 
     def viewData(self):
         print('Información encontrada:')
-        for url,data in self.data.items():
-            print(url)
-            print(data)
-            
-    def report(self):
-        self.printUrls()
-        print('\n')
-        self.printData()
-        print('\n')
-        self.printNoLoad()
-        
-    def getTels(self):
-        tels = {}
+        for value in self.data.values():
+            print(value) 
+
+    def getData(self, key):
         response = []
-        count = {}
-        # Si no se pasa llave se listan todos los diccionarios
+        data = {}
+        # Se listan todos los teléfonos
         for url in self.data.keys():       
             count = 0
-            for t in self.data[url]['tels']:
+            for t in self.data[url][key]:
                 count += 1
-                tels[t] = count 
+                data[t] = count 
        
-            response.append([url,tels])
+            response.append([url,data])
 
         return response[0]
-            
-    def viewEmails(self, key):
-        # Si no se pasa llave se listan todos los diccionarios
-        if key==None:
-            for k in self.data.keys():
-                for t in self.data[k]['emails']:
-                    print(t)
-        else:
-            for t in self.getEmails(key):
-                print(t)
-        
-    def viewImages(self, key):
-        for t in self.getImages(key):
-            if not re.search('^(https|http)+://', t):
-                if self.actualStrKey[len(self.actualStrKey)-1] != '/':
-                    
-                    print('{}/{}'.format(self.actualStrKey, t))
-                else:
-                    print(self.actualStrKey + t)
-            else:
-                print(t)
+
+    def getImg(self):
+        lst = []
+        for url in self.data.keys(): 
+            # Componemos la url de las imagenes para poder linkear
+            for img in self.data[url]['img']:
+                u = '' 
+                if not re.search(r'^(https|http)+://', img):
+                    spl = re.split('/', url)
+                    end = spl[len(spl)-1]
+                    u = re.sub(end,'',url)
+                lst.append(u+img)
+
+        return lst
 
     #getter and setter
     def scope(self, val=None):
@@ -212,7 +218,8 @@ class Scanner:
                     self.scope()
                 else:
                     self._scope = val
+
             return self._scope
         except ValueError:
-            print('Ingrese un numero de opción')
+            print('Error: Valor incorreto!')
             self.scope()

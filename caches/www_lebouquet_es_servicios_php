@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi, user-scalable=no" />
+
+        <meta name='keywords' content='maquillaje, maquilladora , novias, bodas, manicuras, pedicuras, tratamientos faciales, belleza, bienestar'>
+        <meta name='description' content='Centro estético en Castellón de la Plana. Realizamos maquillajes, manicuras, pedicuras y tratamientos faciales. Maquillajes profesionales de novia con aerografo para eventos y bodas.'>
+        <meta name='subject' content='Le Bouquet'>
+        <meta name='copyright' content='Nestor Pons '>
+        <meta name='language' content='ES'>
+        <meta name='robots' content='index,follow'>
+        <meta name='revised' content='2018-12-15'>
+        <meta name='Classification' content='Business'>
+        <meta name='author' content='Néstor Pons, nestorpons@gmail.com'>
+        <meta name='designer' content=''>
+        <meta name='reply-to' content='info@lebouquet.es'>
+        <meta name='owner' content=''>
+        <meta name='url' content='https://www.lebouquet.es'>
+        <meta name='identifier-URL' content='https://www.lebouquet.es'>
+        <meta name='subtitle' content='Centro de belleza en Castellón'>
+        <meta name='target' content='all'>
+        <meta name='HandheldFriendly' content='True'>
+        <meta name='MobileOptimized' content='320'>
+
+        <link rel="alternate" hreflang="es" href="https://www.lebouquet.es">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+        <title>Le Bouquet Centro estetico</title>
+    </head>
+    <body>
+      <a href="/">home</a>
+      <section id="servicios">
+    <div class="head">
+        <img id="imgMain" src="images/tileServicios.png" />
+    </div>
+    <p></p>
+    <div id="accordion">
+        <h3 id="makeup">Maquillajes</h3>
+        <div>
+            <em>
+                Todos nuestros maquillajes se hacen con los productos más novedosos y con las mejores
+                <a class=link section=marcas>marcas</a>.
+            </em>
+            <p></p>
+            <ul>
+                <li><span class=col1>Maquillaje (60 min)</span><span class=col2>55 €</span></li>
+                <li><span class=col1>Maquillaje novia + prueba + entrevista (lo necesario)</span><span class=col2>160 €</span></li>
+                <li><span class=col1>Curso automaquillaje (90 min)</span><span class=col2>90 €</span></li>
+                <li><span class=col1>Plus desplazamiento</span><span class=col2>20 €</span></li>
+                <li><span class=col1>Plus desplazamiento por kilómetro</span><span class=col2>1 €</span></li>
+            </ul>
+        </div>
+        <h3 id="packs">Packs</h3>
+        <div>
+            <p>Porque queremos que luzcal la belleza más radiante, tenemos diseñados nuestros circuitos de belleza que se adaptan a todas las necesidades</p>
+            <ul>
+                <li><a class="link" href="pack-mariee.html">Pack Mariee</a></li>
+                <li><a class="link" href="pack-essentiel.html">Pack Essentiel</a></li>
+                <li><a class="link" href="pack-homme.html">Pack Homme</a></li>
+                <!-- <li><a class="link" href="pack-maquillage.html">Maquillage</a></li> -->
+            </ul>
+        </div>
+        <h3 id="micro">Micropigmentación</h3>
+        <div>
+            <ul>
+                <li><span class=col1>Cejas (el necesario)</span><span class=col2>350 €</span></li>
+                <li><span class=col1>Eye liner (el necesario)</span><span class=col2>350 €</span></li>
+                <li><span class=col1>Labios (el necesario)</span><span class=col2>350 €</span></li>
+            </ul>
+        </div>
+        <h3 id="eye">Belleza en la mirada</h3>
+        <div>
+            <p>La mirada dice mucho de ti y por eso estudiamos y diseñamos servicios específicos de tu mirada</p>
+            <ul>
+                <li><span class=col1>Depilación cejas con hilo (15 min)</span><span class=col2>15 €</span></li>
+                <li>Extensiones de pestaña :
+                    <ul>
+                        <li><span class=col1>Pelo a pelo (90 min)</span><span class=col2>75 €</span></li>
+                        <li><span class=col1>3D (120 min)</span><span class=col2>90 €</span></li>
+                    </ul>
+                </li>
+                <li><span class=col1>Lifting de pestañas + tinte (60 min)</span><span class=col2>55 €</span></li>
+                <li><span class=col1>Tinte de pestañas (20 min)</span><span class=col2>15 €</span></li>
+                <li><span class=col1>Pestañas de fantasía (15 min)</span><span class=col2>20 €</span></li>
+                <li><span class=col1>Extensiones de cejas (25 min)</span><span class=col2>50 €</span></li>
+                <li><span class=col1>Tratamiento contorno de ojos (30 min)</span><span class=col2>45 €</span></li>
+            </ul>
+        </div>
+        <h3 id="nails">Esmaltado profesional
+            <span class="ui-accordion-header-coment ">¡Más de 300 colores para elegir!</span>
+        </h3>
+        <div>
+            <p>Porque queremos que elijas el esmalte que realmente deseas </p>
+            <p>Nuestras profesionales podrán asesorate de las últimas tendencias y los colores que mejor te pudieran combinan.</p>
+
+            <ul>
+                <li><span class=col1>Esmaltado Parisino (15 min)</span><span class=col2>7 €</span></li>
+                <li><span class=col1>Esmaltado larga duración (20 min)</span><span class=col2>8 €</span></li>
+                <li><span class=col1>Esmaltado permanente (45 min)</span><span class=col2>21 €</span></li>
+                <li><span class=col1>Esmaltado permanente Shellac (45 min)</span><span class=col2>25 €</span></li>
+                <li><span class=col1>Esmaltado francésa (el necesario)</span><span class=col2>2 €</span></li>
+                <li><span class=col1>Retirado esmaltado permanente (30 min)</span><span class=col2>8 €</span></li>
+                <li><span class=col1>Retirado esmaltado permanente + manicura (30 min)</span><span class=col2>16 €</span></li>
+                <li><span class=col1>Tratamiento Fortalecedor (15 min)</span><span class=col2>15 €</span></li>
+            </ul>
+
+        </div>
+        <h3 id="manicure">Cuidado de las manos</h3>
+        <div>
+            <p>Más de doce años cuidando las manos para que luzca una piel suave y tersa.</p>
+            <ul>
+                <li><span class=col1>Tratamiento regenerante (15 min)</span><span class=col2>15 €</span></li>
+                <li><span class=col1>Tratamiento de parafina (15 min)</span><span class=col2>10 €</span></li>
+                <li><span class=col1>Manicura caballero (20 min)</span><span class=col2>10 €</span></li>
+                <li><span class=col1>Manicura spá (25 min)</span><span class=col2>13 €</span></li>
+                <li><span class=col1>Manicura larga duración (25 min)</span><span class=col2>16,50 €</span></li>
+                <li><span class=col1>Manicura parisina (60 min)</span><span class=col2>35 €</span></li>
+                <li><span class=col1>Manicura permanente (60 min)</span><span class=col2>32 €</span></li>
+                <li><span class=col1>Uñas de gel (90 min)</span><span class=col2>40 €</span></li>
+                <li><span class=col1>Uñas de Polygel (90 min)</span><span class=col2>40 a 60 €</span></li>
+                <li><span class=col1>Retirada de gel o acrílico (90 min)</span><span class=col2>21 €</span></li>
+            </ul>
+        </div>
+        <h3 id="pedicure">Cuidado de los pies</h3>
+        <div>
+            <ul>
+                <li><span class=col1>Pedicura caballero (30 min)</span><span class=col2>20 €</span></li>
+                <li><span class=col1>Pedicura spá (60 min)</span><span class=col2>25 €</span></li>
+                <li><span class=col1>Pedicura larga duración (60 min)</span><span class=col2>28,50 €</span></li>
+                <li><span class=col1>Pedicura con tratamiento (75 min)</span><span class=col2>38 €</span></li>
+                <li><span class=col1>Pedicura permanente (75 min)</span><span class=col2>42 €</span></li>
+            </ul>
+        </div>
+        <h3 id="facial">Tratamientos de belleza facial</h3>
+        <div>
+            <ul>
+                <li><span class=col1>Rutina Koreana (60 min)</span><span class=col2>85 €</span></li>
+                <li><span class=col1>Higiene purificante (75 min)</span><span class=col2>45 €</span></li>
+                <li><span class=col1>Higiene purificante con tratamiento (75 min)</span><span class=col2>55 €</span></li>
+                <li><span class=col1>Desincrustación facial (30 min)</span><span class=col2>30 €</span></li>
+                <li><span class=col1>Limpieza facial (40 min)</span><span class=col2>25 €</span></li>
+                <li><span class=col1>Tratamiento AHA (40 min)</span><span class=col2>38 €</span></li>
+                <li><span class=col1>Purificante Cell Vitale (80 min)</span><span class=col2>60 €</span></li>
+                <li><span class=col1>Regeneratrice (60 min)</span><span class=col2>60 €</span></li>
+                <li><span class=col1>Anti-edad con hialurónico (75 min)</span><span class=col2>85 €</span></li>
+                <li><span class=col1>Ultra lifting con peptidos (75 min)</span><span class=col2>80 €</span></li>
+                <li><span class=col1>Bronceado facial DHA (15 min)</span><span class=col2>15 €</span></li>
+            </ul>
+        </div>
+        <h3 id="bodily">Tratamientos de belleza corporal</h3>
+        <div>
+            <ul>
+                <li><span class=col1>Higiene espalda (30 min)</span><span class=col2>50 €</span></li>
+                <li><span class=col1>Exfoliante de espalda (30 min)</span><span class=col2>35 €</span></li>
+                <li><span class=col1>Bronceado DHA (20 min)</span><span class=col2>25 €</span></li>
+            </ul>
+        </div>
+        <h3 id="depilation">Depilaciones
+            <span class="ui-accordion-header-coment ">¡Nueva depilación con hilo!</span>
+        </h3>
+        <div>
+            <p>Nuestros servicios de depilación son de lo más especiales y exclusivos</p>
+            <ul>
+                <li>Depilación con hilo :
+                    <ul>
+                        <li><span class=col1>Depilación cejas (15 min)</span><span class=col2>15 €</span></li>
+                        <li><span class=col1>Depilación labio (10 min)</span><span class=col2>9 €</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+    </body>
+</html>

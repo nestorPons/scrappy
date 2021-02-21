@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>	
+<!-- Meta info -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!-- Title -->
+ <title>CSS Template Haven | Szablony dla profesjonalistów i freelancerów</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+ 
+  <link rel="pingback" href="http://csstemplateheaven.com/xmlrpc.php" />
+ 
+<!--[if lt IE 9]>
+<script src="http://csstemplateheaven.com/wp-content/themes/silver-mag-lite/js/html5.js"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="CSS Template Haven &raquo; Kanał z wpisami" href="http://csstemplateheaven.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CSS Template Haven &raquo; Kanał z komentarzami" href="http://csstemplateheaven.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/csstemplateheaven.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.24"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='style-css'  href='http://csstemplateheaven.com/wp-content/themes/silver-mag-lite/style.css?ver=4.4.24' type='text/css' media='all' />
+<link rel='stylesheet' id='skeleton-css'  href='http://csstemplateheaven.com/wp-content/themes/silver-mag-lite/css/skeleton.css?ver=4.4.24' type='text/css' media='all' />
+<link rel='stylesheet' id='flex-css'  href='http://csstemplateheaven.com/wp-content/themes/silver-mag-lite/css/flexslider.css?ver=4.4.24' type='text/css' media='all' />
+<link rel='stylesheet' id='PT-sans-tp-css'  href='//fonts.googleapis.com/css?family=PT+Sans%7COswald%3A400%2C700&#038;ver=4.4.24' type='text/css' media='all' />
+<script type='text/javascript' src='http://csstemplateheaven.com/wp-content/themes/silver-mag-lite/js/jquery.easing.1.3.js?ver=4.4.24'></script>
+<script type='text/javascript' src='http://csstemplateheaven.com/wp-content/themes/silver-mag-lite/js/css3-mediaqueries.js?ver=4.4.24'></script>
+<script type='text/javascript' src='http://csstemplateheaven.com/wp-content/themes/silver-mag-lite/js/jquery.flexslider-min.js?ver=4.4.24'></script>
+<script type='text/javascript' src='http://csstemplateheaven.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://csstemplateheaven.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel='https://api.w.org/' href='http://csstemplateheaven.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://csstemplateheaven.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://csstemplateheaven.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.24" />
+ 
+</head>  
+
+<body class="home blog"> 
+
+<!-- #tp-site-wrap -->	
+<div id="tp-site-wrap" class="container clearfix"> 
+ 	<!-- #CatNav -->  
+	<div id="catnav">	
+			</div> 
+	<!-- /#CatNav -->  
+	 <!-- /#Header --> 
+<div id="tp-site-wrap-container"> 
+
+<div id="header">	
+	<div id="head-content" class="clearfix ">
+ 	 
+			<!-- Logo --> 
+			<div id="logo">   
+  
+				     
+				<h1><a href="http://csstemplateheaven.com/" title="CSS Template Haven" rel="home">CSS Template Haven</a></h1> <span>Szablony dla profesjonalistów i freelancerów</span>
+				   
+			</div>	 	
+			<!-- /#Logo --><img src="http://csstemplateheaven.com/wp-content/uploads/2016/02/1-8.jpg">
+
+ 		
+  					<!-- Header Ad -->
+ 		<div id="header-banner468" class="clearfix">
+ 			</div>
+ 
+		<!-- /#Header Ad -->
+	 	
+ 	</div>	
+</div>
+<!-- /#Header --> 
+
+    <!--#tp-section-wrap-->
+<div id="tp-section-wrap" class="clearfix">
+ <!--#tp-section-left-or-right-->
+ 	<div id="tp-section-left" class="eleven columns clearfix">	
+ 						<div class="blogposts-wrap">
+							<h2 class="blogpost-tp-site-wrap-title">Recent Posts</h2>
+							
+<div class="blog-lists-blog clearfix">
+	 <div id="themepacific_infinite" class="blogposts-tp-site-wrap clearfix"> 
+ 		 <div class="blogposts-inner">
+		<ul>	 		
+			<li class="full-left clearfix">	
+				<div class='magbig-thumb'>
+ 						 
+					  							<a href="http://csstemplateheaven.com/nowoczesne-szkolenia-techniczne-furtka-do-dobrego-funkcjonowania-firmy/" rel="bookmark" title="Nowoczesne szkolenia techniczne furtką do dobrego funkcjonowania firmy."><img   src="http://csstemplateheaven.com/wp-content/themes/silver-mag-lite/images/default-image.png" alt="Nowoczesne szkolenia techniczne furtką do dobrego funkcjonowania firmy." /></a>
+												 
+   				</div>
+						 
+				<div class="list-block clearfix">
+					<h3><a href="http://csstemplateheaven.com/nowoczesne-szkolenia-techniczne-furtka-do-dobrego-funkcjonowania-firmy/" title="Nowoczesne szkolenia techniczne furtką do dobrego funkcjonowania firmy.">Nowoczesne szkolenia techniczne furtką do dobrego funkcjonowania firmy.</a></h3> 	
+							<div class="post-meta-blog">
+					<span class="meta_author"> <a href="http://csstemplateheaven.com/author/admin/" title="Wpisy, których autorem jest admin" rel="author">admin</a></span>
+					<span class="meta_date"> Marzec 02, 2018</span>
+					<span class="meta_comments">  <a href="http://csstemplateheaven.com/nowoczesne-szkolenia-techniczne-furtka-do-dobrego-funkcjonowania-firmy/#respond">0 Comment</a></span>
+					</div>
+ 					<div class="maga-excerpt clearfix">
+					&nbsp; Jeśli czujesz, że Twoją pasją jest wspieranie innych w radzeniu sobie z wyzwaniami zawodowymi, w poszukiwaniu rozwiązań... <div class="themepacific-read-more"><a class="tpcrn-read-more" href="http://csstemplateheaven.com/nowoczesne-szkolenia-techniczne-furtka-do-dobrego-funkcjonowania-firmy/">Read more&nbsp;&raquo;</a></div>					</div>	
+ 			</div>
+		</li></ul>
+	<br class="clear" />		
+</div><div class="blogposts-inner">
+		<ul>	 		
+			<li class="full-left clearfix">	
+				<div class='magbig-thumb'>
+ 						 
+					  							<a href="http://csstemplateheaven.com/jak-zadbac-o-odziez-z-nadrukiem/" rel="bookmark" title="Jak zadbać o odzież z nadrukiem?"><img   src="http://csstemplateheaven.com/wp-content/themes/silver-mag-lite/images/default-image.png" alt="Jak zadbać o odzież z nadrukiem?" /></a>
+												 
+   				</div>
+						 
+				<div class="list-block clearfix">
+					<h3><a href="http://csstemplateheaven.com/jak-zadbac-o-odziez-z-nadrukiem/" title="Jak zadbać o odzież z nadrukiem?">Jak zadbać o odzież z nadrukiem?</a></h3> 	
+							<div class="post-meta-blog">
+					<span class="meta_author"> <a href="http://csstemplateheaven.com/author/admin/" title="Wpisy, których autorem jest admin" rel="author">admin</a></span>
+					<span class="meta_date"> Luty 15, 2018</span>
+					<span class="meta_comments">  <a href="http://csstemplateheaven.com/jak-zadbac-o-odziez-z-nadrukiem/#respond">0 Comment</a></span>
+					</div>
+ 					<div class="maga-excerpt clearfix">
+					Wydaje się to dość oczywiste, ale nie wszyscy stosują się do tych zasad a później mają pretensje, że... <div class="themepacific-read-more"><a class="tpcrn-read-more" href="http://csstemplateheaven.com/jak-zadbac-o-odziez-z-nadrukiem/">Read more&nbsp;&raquo;</a></div>					</div>	
+ 			</div>
+		</li></ul>
+	<br class="clear" />		
+</div><div class="blogposts-inner">
+		<ul>	 		
+			<li class="full-left clearfix">	
+				<div class='magbig-thumb'>
+ 						 
+					  							<a href="http://csstemplateheaven.com/jaka-jest-idea-kursow-technicznych/" rel="bookmark" title="Jaka jest idea kursów technicznych?"><img   src="http://csstemplateheaven.com/wp-content/themes/silver-mag-lite/images/default-image.png" alt="Jaka jest idea kursów technicznych?" /></a>
+												 
+   				</div>
+						 
+				<div class="list-block clearfix">
+					<h3><a href="http://csstemplateheaven.com/jaka-jest-idea-kursow-technicznych/" title="Jaka jest idea kursów technicznych?">Jaka jest idea kursów technicznych?</a></h3> 	
+							<div class="post-meta-blog">
+					<span class="meta_author"> <a href="http://csstemplateheaven.com/author/admin/" title="Wpisy, których autorem jest admin" rel="author">admin</a></span>
+					<span class="meta_date"> Luty 09, 2018</span>
+					<span class="meta_comments">  <a href="http://csstemplateheaven.com/jaka-jest-idea-kursow-technicznych/#respond">0 Comment</a></span>
+					</div>
+ 					<div class="maga-excerpt clearfix">
+					Świat idzie do przodu a razem z nim musimy iść my. Technologia wprowadza co rusz nowe rozwiązania i... <div class="themepacific-read-more"><a class="tpcrn-read-more" href="http://csstemplateheaven.com/jaka-jest-idea-kursow-technicznych/">Read more&nbsp;&raquo;</a></div>					</div>	
+ 			</div>
+		</li></ul>
+	<br class="clear" />		
+</div><div class="blogposts-inner">
+		<ul>	 		
+			<li class="full-left clearfix">	
+				<div class='magbig-thumb'>
+ 						 
+					  							<a href="http://csstemplateheaven.com/jak-uniknac-wizyty-w-serwisie-laptopow/" rel="bookmark" title="Jak uniknąć wizyty w serwisie laptopów?"><img   src="http://csstemplateheaven.com/wp-content/themes/silver-mag-lite/images/default-image.png" alt="Jak uniknąć wizyty w serwisie laptopów?" /></a>
+												 
+   				</div>
+						 
+				<div class="list-block clearfix">
+					<h3><a href="http://csstemplateheaven.com/jak-uniknac-wizyty-w-serwisie-laptopow/" title="Jak uniknąć wizyty w serwisie laptopów?">Jak uniknąć wizyty w serwisie laptopów?</a></h3> 	
+							<div class="post-meta-blog">
+					<span class="meta_author"> <a href="http://csstemplateheaven.com/author/admin/" title="Wpisy, których autorem jest admin" rel="author">admin</a></span>
+					<span class="meta_date"> Styczeń 10, 2018</span>
+					<span class="meta_comments">  <a href="http://csstemplateheaven.com/jak-uniknac-wizyty-w-serwisie-laptopow/#respond">0 Comment</a></span>
+					</div>
+ 					<div class="maga-excerpt clearfix">
+					&nbsp; Serwis laptopów Łódź – większość osób przeraża to hasło. Wiąże się ono z dużymi wydatkami, na często... <div class="themepacific-read-more"><a class="tpcrn-read-more" href="http://csstemplateheaven.com/jak-uniknac-wizyty-w-serwisie-laptopow/">Read more&nbsp;&raquo;</a></div>					</div>	
+ 			</div>
+		</li></ul>
+	<br class="clear" />		
+</div><div class="blogposts-inner">
+		<ul>	 		
+			<li class="full-left clearfix">	
+				<div class='magbig-thumb'>
+ 						 
+					  							<a href="http://csstemplateheaven.com/skuteczna-wizytowka-czym-sie-wyroznia/" rel="bookmark" title="Skuteczna wizytówka. Czym się wyróżnia?"><img   src="http://csstemplateheaven.com/wp-content/themes/silver-mag-lite/images/default-image.png" alt="Skuteczna wizytówka. Czym się wyróżnia?" /></a>
+												 
+   				</div>
+						 
+				<div class="list-block clearfix">
+					<h3><a href="http://csstemplateheaven.com/skuteczna-wizytowka-czym-sie-wyroznia/" title="Skuteczna wizytówka. Czym się wyróżnia?">Skuteczna wizytówka. Czym się wyróżnia?</a></h3> 	
+							<div class="post-meta-blog">
+					<span class="meta_author"> <a href="http://csstemplateheaven.com/author/admin/" title="Wpisy, których autorem jest admin" rel="author">admin</a></span>
+					<span class="meta_date"> Styczeń 08, 2018</span>
+					<span class="meta_comments">  <a href="http://csstemplateheaven.com/skuteczna-wizytowka-czym-sie-wyroznia/#respond">0 Comment</a></span>
+					</div>
+ 					<div class="maga-excerpt clearfix">
+					Mimo rozwoju technologicznego i rosnącego znaczenia nowych mediów w tym głównie Internetu tradycyjne środki reklamy i budowy wizerunku... <div class="themepacific-read-more"><a class="tpcrn-read-more" href="http://csstemplateheaven.com/skuteczna-wizytowka-czym-sie-wyroznia/">Read more&nbsp;&raquo;</a></div>					</div>	
+ 			</div>
+		</li></ul>
+	<br class="clear" />		
+</div>				 
+					</div>	
+</div>					 
+  		<div class="pagination clearfix">
+			<span class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://csstemplateheaven.com/page/2/'>2</a>
+<a class='page-numbers' href='http://csstemplateheaven.com/page/3/'>3</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://csstemplateheaven.com/page/9/'>9</a>		</div>
+ 
+ 					 </div>
+  					<div id="tpcrn_magazine_doublethumb-widget-3" class="tpcrn_magazine_doublethumb blogposts-tp-site-wrap clearfix"><div class="head-span-lines"></div> 	<div class="blog-lists one-half column first"><!-- Begin First Block -->				 <h2 class="blogpost-tp-site-wrap-title">	 <a href="http://csstemplateheaven.com/category/tworzenie-i-edycja-skorek-windu/">Tworzenie i edycja skórek Windu</a> </h2> 						 			<ul> 				  			  					<li class="blog-list-big">  								 						  								<div class="sb-post-big-thumbnail">																			<a href="http://csstemplateheaven.com/tworzenie-widgetow-w-szablonie/" class="post-thumbnail" title="Tworzenie widgetów w szablonie"><img width="376" height="192" src="http://csstemplateheaven.com/wp-content/uploads/2016/02/1-4-376x192.jpg" class="attachment-sb-post-big-thumbnail size-sb-post-big-thumbnail wp-post-image" alt="" title="Tworzenie widgetów w szablonie" /></a>									 								</div>								<div class="blog-lists-title">   								 <h3><a href="http://csstemplateheaven.com/tworzenie-widgetow-w-szablonie/" title="Tworzenie widgetów w szablonie">Tworzenie widgetów w szablonie</a></h3> 								 <div class="time clearfix">										<span class="meta_author"><a href="http://csstemplateheaven.com/author/admin/" title="Wpisy, których autorem jest admin" rel="author">admin</a></span>										<span class="meta_date"> Luty 12, 2016</span>										<span class="meta_comments"> <a href="http://csstemplateheaven.com/tworzenie-widgetow-w-szablonie/#respond">0 Comment</a></span>								 </div>									 									</div> 									<div class="maga-excerpt clearfix">									Aby dodać widget w nowym szablonie, trzeba najpierw kliknąć w zakładkę nazwaną „Grafika”, następnie przejść... <div class="themepacific-read-more"><a class="tpcrn-read-more" href="http://csstemplateheaven.com/tworzenie-widgetow-w-szablonie/">Read more&nbsp;&raquo;</a></div>									</div>  					</li>																	 					 		  								 			 					<li class="blog-list-small"> 								 					  									<div class="sb-post-thumbnail">																								<a href="http://csstemplateheaven.com/tworzenie-szablonu-windu/" class="post-thumbnail" title="Tworzenie szablonu Windu"><img width="70" height="70" src="http://csstemplateheaven.com/wp-content/uploads/2016/02/Bez-tytułu-1-70x70.jpg" class="attachment-sb-post-thumbnail size-sb-post-thumbnail wp-post-image" alt="" title="Tworzenie szablonu Windu" srcset="http://csstemplateheaven.com/wp-content/uploads/2016/02/Bez-tytułu-1-150x150.jpg 150w, http://csstemplateheaven.com/wp-content/uploads/2016/02/Bez-tytułu-1-70x70.jpg 70w" sizes="(max-width: 70px) 100vw, 70px" /></a>									 									</div>									<div class="blog-lists-title">   																						 <h3><a href="http://csstemplateheaven.com/tworzenie-szablonu-windu/" title="Tworzenie szablonu Windu">Tworzenie szablonu Windu</a></h3> 													 	<div class="time clearfix">														<span class="date">Luty 12, 2016</span>														</div>									 									</div>  					</li>										 					 		  								 			 					<li class="blog-list-small"> 								 					  									<div class="sb-post-thumbnail">																								<a href="http://csstemplateheaven.com/szablon-windu-kontra-szablon-wordpress/" class="post-thumbnail" title="Szablon Windu kontra szablon WordPress"><img width="70" height="70" src="http://csstemplateheaven.com/wp-content/uploads/2016/02/Bez-tytułu-70x70.jpg" class="attachment-sb-post-thumbnail size-sb-post-thumbnail wp-post-image" alt="" title="Szablon Windu kontra szablon WordPress" srcset="http://csstemplateheaven.com/wp-content/uploads/2016/02/Bez-tytułu-150x150.jpg 150w, http://csstemplateheaven.com/wp-content/uploads/2016/02/Bez-tytułu-70x70.jpg 70w" sizes="(max-width: 70px) 100vw, 70px" /></a>									 									</div>									<div class="blog-lists-title">   																						 <h3><a href="http://csstemplateheaven.com/szablon-windu-kontra-szablon-wordpress/" title="Szablon Windu kontra szablon WordPress">Szablon Windu kontra szablon WordPress</a></h3> 													 	<div class="time clearfix">														<span class="date">Luty 12, 2016</span>														</div>									 									</div>  					</li>										 					 		  																			  						</ul>				 					</div><!-- First Block Ends -->					 <div class="blog-lists one-half column second"><!-- Begin Second Block -->	<h2 class="blogpost-tp-site-wrap-title" > 	 <a href="http://csstemplateheaven.com/category/tworzenie-i-edycja-skorek-wordpress/">Tworzenie i edycja skórek WordPress</a>	 </h2>						 			 		 			<ul> 				  			  					<li class="blog-list-big">  								 						  								<div class="sb-post-big-thumbnail">																			<a href="http://csstemplateheaven.com/tworzenie-szablonu-wordpress/" class="post-thumbnail" title="Tworzenie szablonu WordPress"><img width="376" height="192" src="http://csstemplateheaven.com/wp-content/uploads/2016/02/szabl-376x192.png" class="attachment-sb-post-big-thumbnail size-sb-post-big-thumbnail wp-post-image" alt="" title="Tworzenie szablonu WordPress" /></a>									 								</div>								<div class="blog-lists-title">  								 <h3><a href="http://csstemplateheaven.com/tworzenie-szablonu-wordpress/" title="Tworzenie szablonu WordPress">Tworzenie szablonu WordPress</a></h3> 								 <div class="time clearfix">										<span class="meta_author"><a href="http://csstemplateheaven.com/author/admin/" title="Wpisy, których autorem jest admin" rel="author">admin</a></span>									<span class="meta_date"> Luty 12, 2016</span>									<span class="meta_comments"> <a href="http://csstemplateheaven.com/tworzenie-szablonu-wordpress/#respond">0 Comment</a></span>										</div>									 									</div>  										<div class="maga-excerpt clearfix">									Mówiliśmy już o instalowaniu gotowych szablonów na WordPressie, mówiliśmy też o modyfikacji już istniejących, przyszedł... <div class="themepacific-read-more"><a class="tpcrn-read-more" href="http://csstemplateheaven.com/tworzenie-szablonu-wordpress/">Read more&nbsp;&raquo;</a></div>									</div>  					</li>																	 					 		  								 			 					<li class="blog-list-small"> 								 							  									<div class="sb-post-thumbnail">																								<a href="http://csstemplateheaven.com/motywy-potomne-jak-bezpiecznie-zmodyfikowac-szablon/" class="post-thumbnail" title="Motywy potomne jak bezpiecznie zmodyfikować szablon"><img width="70" height="70" src="http://csstemplateheaven.com/wp-content/uploads/2016/02/22-1-70x70.png" class="attachment-sb-post-thumbnail size-sb-post-thumbnail wp-post-image" alt="" title="Motywy potomne jak bezpiecznie zmodyfikować szablon" srcset="http://csstemplateheaven.com/wp-content/uploads/2016/02/22-1-150x150.png 150w, http://csstemplateheaven.com/wp-content/uploads/2016/02/22-1-70x70.png 70w" sizes="(max-width: 70px) 100vw, 70px" /></a>									 									</div>									<div class="blog-lists-title">  										 <h3><a href="http://csstemplateheaven.com/motywy-potomne-jak-bezpiecznie-zmodyfikowac-szablon/" title="Motywy potomne jak bezpiecznie zmodyfikować szablon">Motywy potomne jak bezpiecznie zmodyfikować szablon</a></h3> 										<div class="time clearfix">										<span class="date">Luty 12, 2016</span>												 												 									</div>																					 									</div>   					</li>										 					 		  								 			 					<li class="blog-list-small"> 								 							  									<div class="sb-post-thumbnail">																								<a href="http://csstemplateheaven.com/instalacja-szablonu-wordpress/" class="post-thumbnail" title="Instalacja szablonu WordPress"><img width="70" height="70" src="http://csstemplateheaven.com/wp-content/uploads/2016/02/2-70x70.jpg" class="attachment-sb-post-thumbnail size-sb-post-thumbnail wp-post-image" alt="" title="Instalacja szablonu WordPress" srcset="http://csstemplateheaven.com/wp-content/uploads/2016/02/2-150x150.jpg 150w, http://csstemplateheaven.com/wp-content/uploads/2016/02/2-70x70.jpg 70w" sizes="(max-width: 70px) 100vw, 70px" /></a>									 									</div>									<div class="blog-lists-title">  										 <h3><a href="http://csstemplateheaven.com/instalacja-szablonu-wordpress/" title="Instalacja szablonu WordPress">Instalacja szablonu WordPress</a></h3> 										<div class="time clearfix">										<span class="date">Luty 12, 2016</span>												 												 									</div>																					 									</div>   					</li>										 					 		  																			  						</ul>			 					</div><!-- End Second Block -->  		</div>    	</div>
+ 	<!-- /blocks col -->
+  <!--#Sidebar 2-->
+<aside id="sidebar-small" class="three columns  clearfix">
+<div id="tpcrn-cat-posts-widget-9" class="sidebar-widget silvermag_recent_category_widget"><h3 class="widget-head">Najnowsze skórki</h3> 	 
+		
+<div class="popular-rec">
+  
+ <!-- Begin category posts -->
+				<ul class="sb-tabs-wrap">
+										<li>
+						<div class="sb-post-thumbnail">
+													<a class="post-thumbnail" href="http://csstemplateheaven.com/szablon-wordpress-photo-world/" title="Szablon WordPress Photo World"><img width="70" height="70" src="http://csstemplateheaven.com/wp-content/uploads/2016/02/photo-70x70.png" class="attachment-sb-post-thumbnail size-sb-post-thumbnail wp-post-image" alt="" title="Szablon WordPress Photo World" srcset="http://csstemplateheaven.com/wp-content/uploads/2016/02/photo-150x150.png 150w, http://csstemplateheaven.com/wp-content/uploads/2016/02/photo-70x70.png 70w" sizes="(max-width: 70px) 100vw, 70px" /></a>
+												</div>
+						<div class="sb-post-list-title">
+							<h4><a href="http://csstemplateheaven.com/szablon-wordpress-photo-world/" title="Szablon WordPress Photo World" rel="bookmark">Szablon WordPress Photo World</a></h4>
+							<div class="sb-post-meta">
+							<p>Luty 12, 2016</p>
+ 							</div>
+						</div>							
+					</li>
+										<li>
+						<div class="sb-post-thumbnail">
+													<a class="post-thumbnail" href="http://csstemplateheaven.com/beauty-spa-lite/" title="Szablon WordPress Beauty Spa Lite"><img width="70" height="70" src="http://csstemplateheaven.com/wp-content/uploads/2016/02/spa-70x70.png" class="attachment-sb-post-thumbnail size-sb-post-thumbnail wp-post-image" alt="" title="Szablon WordPress Beauty Spa Lite" srcset="http://csstemplateheaven.com/wp-content/uploads/2016/02/spa-150x150.png 150w, http://csstemplateheaven.com/wp-content/uploads/2016/02/spa-70x70.png 70w" sizes="(max-width: 70px) 100vw, 70px" /></a>
+												</div>
+						<div class="sb-post-list-title">
+							<h4><a href="http://csstemplateheaven.com/beauty-spa-lite/" title="Szablon WordPress Beauty Spa Lite" rel="bookmark">Szablon WordPress Beauty Spa Lite</a></h4>
+							<div class="sb-post-meta">
+							<p>Luty 12, 2016</p>
+ 							</div>
+						</div>							
+					</li>
+										<li>
+						<div class="sb-post-thumbnail">
+													<a class="post-thumbnail" href="http://csstemplateheaven.com/yogi-lite/" title="Szablon WordPress Yogi Lite"><img width="70" height="70" src="http://csstemplateheaven.com/wp-content/uploads/2016/02/yogi-70x70.png" class="attachment-sb-post-thumbnail size-sb-post-thumbnail wp-post-image" alt="" title="Szablon WordPress Yogi Lite" srcset="http://csstemplateheaven.com/wp-content/uploads/2016/02/yogi-150x150.png 150w, http://csstemplateheaven.com/wp-content/uploads/2016/02/yogi-70x70.png 70w" sizes="(max-width: 70px) 100vw, 70px" /></a>
+												</div>
+						<div class="sb-post-list-title">
+							<h4><a href="http://csstemplateheaven.com/yogi-lite/" title="Szablon WordPress Yogi Lite" rel="bookmark">Szablon WordPress Yogi Lite</a></h4>
+							<div class="sb-post-meta">
+							<p>Luty 12, 2016</p>
+ 							</div>
+						</div>							
+					</li>
+									</ul>
+ 			<!-- End category posts -->
+ 
+		 </div>
+		<!-- End  container -->
+		</div><div id="text-10" class="sidebar-widget widget_text"><h3 class="widget-head">Najlepiej oceniane skórki</h3>			<div class="textwidget"><img src="http://csstemplateheaven.com/wp-content/uploads/2016/02/s1.jpg"></div>
+		</div><div id="text-20" class="sidebar-widget widget_text"><h3 class="widget-head">Nasi eksperci</h3>			<div class="textwidget"><a href="http://www.mkgroup.pl">www.mkgroup.pl</a></div>
+		</div><div id="text-11" class="sidebar-widget widget_text">			<div class="textwidget"><img src="http://csstemplateheaven.com/wp-content/uploads/2016/02/s2.jpg"></div>
+		</div><div id="text-12" class="sidebar-widget widget_text">			<div class="textwidget"><img src="http://csstemplateheaven.com/wp-content/uploads/2016/02/s3.jpg"></div>
+		</div><div id="text-15" class="sidebar-widget widget_text">			<div class="textwidget"><img src="http://csstemplateheaven.com/wp-content/uploads/2016/02/214.jpg"></div>
+		</div><div id="text-16" class="sidebar-widget widget_text">			<div class="textwidget"><img src="http://csstemplateheaven.com/wp-content/uploads/2016/02/222.jpg"></div>
+		</div><div id="text-17" class="sidebar-widget widget_text"><h3 class="widget-head">Współpraca</h3>			<div class="textwidget"><a href="http://mkgtop.net">mkgtop.net</a></br>
+<a href="http://q-seo.pl">q-seo.pl</a>
+</div>
+		</div><div id="tpcrn-cat-posts-widget-11" class="sidebar-widget silvermag_recent_category_widget"><h3 class="widget-head">Artykuły</h3> 	 
+		
+<div class="popular-rec">
+  
+ <!-- Begin category posts -->
+				<ul class="sb-tabs-wrap">
+										<li>
+						<div class="sb-post-thumbnail">
+													<a class="post-thumbnail" href="http://csstemplateheaven.com/darmowe-szablony-czy-warto/" title="Darmowe szablony – czy warto?"><img width="70" height="70" src="http://csstemplateheaven.com/wp-content/uploads/2016/02/ikonaaaaa-70x70.png" class="attachment-sb-post-thumbnail size-sb-post-thumbnail wp-post-image" alt="" title="Darmowe szablony – czy warto?" srcset="http://csstemplateheaven.com/wp-content/uploads/2016/02/ikonaaaaa-150x150.png 150w, http://csstemplateheaven.com/wp-content/uploads/2016/02/ikonaaaaa-70x70.png 70w" sizes="(max-width: 70px) 100vw, 70px" /></a>
+												</div>
+						<div class="sb-post-list-title">
+							<h4><a href="http://csstemplateheaven.com/darmowe-szablony-czy-warto/" title="Darmowe szablony – czy warto?" rel="bookmark">Darmowe szablony – czy warto?</a></h4>
+							<div class="sb-post-meta">
+							<p>Luty 12, 2016</p>
+ 							</div>
+						</div>							
+					</li>
+										<li>
+						<div class="sb-post-thumbnail">
+													<a class="post-thumbnail" href="http://csstemplateheaven.com/darmowy-czy-platny-szablon-wordpress/" title="Darmowy czy płatny szablon WordPress?"><img width="70" height="70" src="http://csstemplateheaven.com/wp-content/uploads/2016/02/szablon2-70x70.png" class="attachment-sb-post-thumbnail size-sb-post-thumbnail wp-post-image" alt="" title="Darmowy czy płatny szablon WordPress?" srcset="http://csstemplateheaven.com/wp-content/uploads/2016/02/szablon2-150x150.png 150w, http://csstemplateheaven.com/wp-content/uploads/2016/02/szablon2-70x70.png 70w" sizes="(max-width: 70px) 100vw, 70px" /></a>
+												</div>
+						<div class="sb-post-list-title">
+							<h4><a href="http://csstemplateheaven.com/darmowy-czy-platny-szablon-wordpress/" title="Darmowy czy płatny szablon WordPress?" rel="bookmark">Darmowy czy płatny szablon WordPress?</a></h4>
+							<div class="sb-post-meta">
+							<p>Luty 12, 2016</p>
+ 							</div>
+						</div>							
+					</li>
+									</ul>
+ 			<!-- End category posts -->
+ 
+		 </div>
+		<!-- End  container -->
+		</div></aside> 
+<!-- /#Sidebar 2-->						
+<!--#Sidebar 2-->
+<aside id="sidebar" class="six columns  clearfix">
+<div id="text-4" class="sidebar-widget widget_text"><h3 class="widget-head">Tutoriale</h3>			<div class="textwidget"><img src="http://csstemplateheaven.com/wp-content/uploads/2016/02/wp.jpg"></div>
+		</div><div id="text-8" class="sidebar-widget widget_text">			<div class="textwidget"><img src="http://csstemplateheaven.com/wp-content/uploads/2016/02/windu-8-1.jpg"></div>
+		</div><div id="text-9" class="sidebar-widget widget_text">			<div class="textwidget"><img src="http://csstemplateheaven.com/wp-content/uploads/2016/02/34.jpg"></div>
+		</div><div id="text-5" class="sidebar-widget widget_text"><h3 class="widget-head">O nas</h3>			<div class="textwidget"><p align="justify">Witaj na naszym portalu. Jest to miejsce, w  którym znajdziesz  informacje odnośnie użyteczności i funkcjonalności skórek. Znajdziesz tutaj tutoriale i poradniki odnośnie przede wszytki funkcjonalności skórek Windu i WordPressa, jednak nie zabraknie również nowinek dotyczących innych CMS-ów.<br></br> 
+
+Nasi specjaliści będą publikować poradniki odnośnie tworzenia i edycji skórek. Znajdą się także informacje odnośnie bezpiecznej modyfikacji motywów w Windu i WordPressie. Tu u nas znajdziesz profesjonalne poradniki tworzone przez zaawansowanych informatyków odnośnie zalet szablonów. Znajdą się tutaj także informacje o tym, jaki szablon graficzny będzie odpowiedni dla działalności, którą prowadzisz na swojej stronie internetowej.
+
+Znajdziesz u nas opisy poszczególnych motywów, co z pewnością ułatwi Ci wybór odpowiedniej dla Ciebie skórki. </div>
+		</div><div id="tpcrn-cat-posts-widget-16" class="sidebar-widget silvermag_recent_category_widget"><h3 class="widget-head">Funkcjonalności skórek</h3> 	 
+		
+<div class="popular-rec">
+  
+ <!-- Begin category posts -->
+				<ul class="sb-tabs-wrap">
+										<li>
+						<div class="sb-post-thumbnail">
+													<a class="post-thumbnail" href="http://csstemplateheaven.com/szablon-wordpress-colormag/" title="Szablon WordPress ColorMag"><img width="70" height="70" src="http://csstemplateheaven.com/wp-content/uploads/2016/02/screenshot-2-70x70.png" class="attachment-sb-post-thumbnail size-sb-post-thumbnail wp-post-image" alt="" title="Szablon WordPress ColorMag" srcset="http://csstemplateheaven.com/wp-content/uploads/2016/02/screenshot-2-150x150.png 150w, http://csstemplateheaven.com/wp-content/uploads/2016/02/screenshot-2-70x70.png 70w" sizes="(max-width: 70px) 100vw, 70px" /></a>
+												</div>
+						<div class="sb-post-list-title">
+							<h4><a href="http://csstemplateheaven.com/szablon-wordpress-colormag/" title="Szablon WordPress ColorMag" rel="bookmark">Szablon WordPress ColorMag</a></h4>
+							<div class="sb-post-meta">
+							<p>Luty 12, 2016</p>
+ 							</div>
+						</div>							
+					</li>
+										<li>
+						<div class="sb-post-thumbnail">
+													<a class="post-thumbnail" href="http://csstemplateheaven.com/szablon-wordpress-sensible-wp/" title="Szablon WordPress  Sensible WP"><img width="70" height="70" src="http://csstemplateheaven.com/wp-content/uploads/2016/02/screenshot-1-70x70.png" class="attachment-sb-post-thumbnail size-sb-post-thumbnail wp-post-image" alt="" title="Szablon WordPress  Sensible WP" srcset="http://csstemplateheaven.com/wp-content/uploads/2016/02/screenshot-1-150x150.png 150w, http://csstemplateheaven.com/wp-content/uploads/2016/02/screenshot-1-70x70.png 70w" sizes="(max-width: 70px) 100vw, 70px" /></a>
+												</div>
+						<div class="sb-post-list-title">
+							<h4><a href="http://csstemplateheaven.com/szablon-wordpress-sensible-wp/" title="Szablon WordPress  Sensible WP" rel="bookmark">Szablon WordPress  Sensible WP</a></h4>
+							<div class="sb-post-meta">
+							<p>Luty 12, 2016</p>
+ 							</div>
+						</div>							
+					</li>
+										<li>
+						<div class="sb-post-thumbnail">
+													<a class="post-thumbnail" href="http://csstemplateheaven.com/szablon-wordpress-wedding-style/" title="Szablon WordPress Wedding Style"><img width="70" height="70" src="http://csstemplateheaven.com/wp-content/uploads/2016/02/screenshot-70x70.png" class="attachment-sb-post-thumbnail size-sb-post-thumbnail wp-post-image" alt="" title="Szablon WordPress Wedding Style" srcset="http://csstemplateheaven.com/wp-content/uploads/2016/02/screenshot-150x150.png 150w, http://csstemplateheaven.com/wp-content/uploads/2016/02/screenshot-70x70.png 70w" sizes="(max-width: 70px) 100vw, 70px" /></a>
+												</div>
+						<div class="sb-post-list-title">
+							<h4><a href="http://csstemplateheaven.com/szablon-wordpress-wedding-style/" title="Szablon WordPress Wedding Style" rel="bookmark">Szablon WordPress Wedding Style</a></h4>
+							<div class="sb-post-meta">
+							<p>Luty 12, 2016</p>
+ 							</div>
+						</div>							
+					</li>
+									</ul>
+ 			<!-- End category posts -->
+ 
+		 </div>
+		<!-- End  container -->
+		</div><div id="text-19" class="sidebar-widget widget_text"><h3 class="widget-head">Współpraca</h3>			<div class="textwidget"><a href="http://mkgtop.net">mkgtop.net</a></br>
+<a href="http://q-seo.pl">q-seo.pl</a></div>
+		</div><div id="text-14" class="sidebar-widget widget_text"><h3 class="widget-head">Kursy i szkolenia</h3>			<div class="textwidget"><img src="http://csstemplateheaven.com/wp-content/uploads/2016/02/s3-1.jpg"></div>
+		</div></aside> 
+<!-- /#Sidebar 2-->						
+  </div><!--/#tp-section-wrap-->  </div> <!--/#tp-site-wrap-container --> </div> <!--/#tp-site-wrap --> <!--#footer-blocks--><div id="footer-blocks" class="container clearfix"> 	<div class="fb-container clearfix">		<div class="footer-block1"> 				 		</div>				 		<div class="footer-block2">  				   		</div> 		<div class="footer-block3"> 						</div>		<div class="footer-block4"> 						</div>     </div> 			</div><!--/#footer-blocks-->   <!-- #footer--> <div id="footer" class="container clearfix">  <div class="foot-wrap container">  	  <p class="copyright">CSS Template Haven&nbsp; &copy;&nbsp;2021</p>	<p class="credit">  	  Designed By <a target="_blank" href="http://themepacific.com/" rel="designer">ThemePacific</a>	  </p>	  	  <p class="credit pf"> 		<a href="http://wordpress.org/" title="A Semantic Personal Publishing Platform" rel="generator">Powered by WordPress</a>		</p>  </div></div><!--/#Footer -->    <script type='text/javascript' src='http://csstemplateheaven.com/wp-content/themes/silver-mag-lite/js/tpcrn_scripts.js?ver=1.0'></script>
+<script type='text/javascript' src='http://csstemplateheaven.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://csstemplateheaven.com/wp-includes/js/wp-embed.min.js?ver=4.4.24'></script>
+ </body> </html>

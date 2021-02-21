@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title id = "loginTile">agenda OnLine</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0">
+
+        <!-- quita css de seleccion en explorer!-->
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- quita barra navegacion!-->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!-- Chrome, Firefox OS, Opera and Vivaldi -->
+        <meta name="theme-color" content="#99c59d"> 
+        <!-- Windows Phone -->
+        <meta name="msapplication-navbutton-color" content="#99c59d">
+        <!-- iOS Safari -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="#99c59d">
+        <!--  manifest -->    
+        <link rel="manifest" href="./manifest.json.php?nombre_empresa=Le Bouquet&color_main=99c59d">
+        
+        <!--favicon-->
+        <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+        <link rel="mask-icon" href="./img/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        
+        <link id="styles" rel="stylesheet"  type="text/css" href="./css/index.min.css?ver=v8.5.7">
+        <script  src="./js/min/login.js?ver=v8.5.7" async ></script>
+
+
+        <script>
+            let config = new Object;
+            config = {"id":"1","nombre_empresa":"Le Bouquet","email":"admin@lebouquet.es","web":"www.lebouquet.es","tel":"964063959","fecha":"2018-06-21 07:11:15","sector":"2","plan":"1","num_ag":"2","horarios":"1","ultimo_acceso":"2018-06-20 19:55:30","dni":"20466219z","nombre_usuario":"Lledo Llobregat Bel","dir":"Ramon LLull 39","poblacion":"Castellon","provincia":"Castellon","pais":"Espa\u00f1a","cp":"12005","idEmpresa":"2","sendMailAdmin":"0","sendMailUser":"1","minTime":"60","festivosON":"1","ShowRow":"0","hora_ini":"08:00:00","hora_fin":"20:00:00","time_zone":"Europe\/Madrid","color_main":"#99c59d","color_secon":"#b9986c","color_text":"#000","color_back":"#fff","border_radio":"2","font_main":"Raleway","font_tile":"Kurale","font_size":"1em","url_img":"http:\/\/pingendo.github.io\/pingendo-bootstrap\/assets\/blurry\/800x600\/12.jpg","nombre":"WELCOME","publi":"0","totalAgendas":3};
+            config.festivos = ["0101","0106","1225"];
+            config.horarios = null;
+            config.margenDias  = 1;	
+        </script>
+      <link rel="stylesheet" href="css/cube.css">
+	<title>Agenda Online zona login</title>
+	</head>
+    <body data-empresa="lebouquet" class="background-personalized" >
+        <section class="login login-cube">
+            <div id="cube">
+                <div id ="back" class="face"></div>
+                <div id="left" class="face"></div>
+                <div id="front" class="face">
+                    <section id="secLogin">
+    <a href= "www.lebouquet.es"  target="_blank">
+        <img id="logo" src="./empresas/lebouquet/logo_128.png" alt="logo image"/>
+    </a>
+    <h1 class="heading">Agenda Le Bouquet</span></h1>
+    <hr>
+    <form id="loginUsuario" defaultbutton="Entrar"
+        data-role="popover" data-popover-position="top" data-popover-text="Error en nombre o la contraseña."
+        data-popover-background="bg-red" data-popover-color="fg-white">
+        <div class="iconClass-container icon-left">
+            <input type="email" class= "email" id="login" name="login" placeholder="Introduzca su Email" 
+            value="" require>
+            <i class="iconClass-inside icon-mail-1"></i>
+        </div>
+        <div class="iconClass-container icon-left">
+            <input type="password" id="pass_login" placeholder="Introduzca su contraseña" value="" require>
+            <i class="iconClass-inside icon-eye"></i>
+        </div>
+        <div id="chkNoCerrarSesion">
+            <input type="checkbox" id="recordar"  name="recordar" value="1" >
+            <span class="info">Iniciar sesión con un pin.</span>
+        </div>
+
+        <button class="btn-success btnLoad"  id="btnLogin" value="Entrar"  disabled default>Entrar</button>
+
+    </form>
+    <div class="login-help">
+        <p>
+            ¿Olvidaste la contraseña?
+            <a id="forgotPass">Pulsa aquí</a>.
+        </p>
+        <p>
+            <a id="goNewUser">Crear nuevo usuario.</a>.
+        </p>
+    </div>
+</section>                </div>
+                <div id="right" class="face"></div>
+            </div>
+        </section>
+        <!--//BLOQUE COOKIES-->
+        <div id="barraaceptacion">
+            <div class="inner">
+                Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real 
+                Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies.
+                <a href="javascript:void(0);" id="btnbarraaceptacion" class="ok"><b>ACEPTAR</b></a> | 
+                <a href="/sources/politicCookies.php?empresa=lebouquet" target="_blank" class="info">Más información</a>
+            </div>
+        </div>
+        <footer class="about">
+            <address class="about-author">
+                <p>
+                    <span>Creado por Néstor Pons</span>
+                    <a href="mailto:nestorpons@gmail.com?Subject=Contacto agenda online Le Bouquet" target="_top">Contacto</a>
+                </p>
+                <p>
+                    <span>&copy; 2018</span> <a href="https://www.lebouquet.es" target="_blank">reservaTuCita v8.5.7</a>
+                </p>
+            </address>	
+        </footer>
+        <!--//FIN BLOQUE COOKIES-->
+    </body>
+</html>

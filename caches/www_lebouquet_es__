@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi, user-scalable=no" />
+
+    <meta name='keywords' content='maquillaje, maquilladora , novias, bodas, manicuras, pedicuras, tratamientos faciales, belleza, bienestar'>
+    <meta name='description' content='Centro estético en Castellón de la Plana. Realizamos maquillajes, manicuras, pedicuras y tratamientos faciales. Maquillajes profesionales de novia para eventos y bodas'>
+    <meta name='subject' content='Le Bouquet'>
+    <meta name='copyright' content='Nestor Pons '>
+    <meta name='language' content='ES'>
+    <meta name='robots' content='index,follow'>
+    <meta name='revised' content='2018-12-15'>
+    <meta name='Classification' content='Business'>
+    <meta name='author' content='Néstor Pons'>
+    <meta name='designer' content=''>
+    <meta name='owner' content=''>
+    <meta name='url' content='https://www.lebouquet.es'>
+    <meta name='identifier-URL' content='https://www.lebouquet.es'>
+    <meta name='subtitle' content='Centro de belleza en Castellón'>
+    <meta name='target' content='all'>
+    <meta name='HandheldFriendly' content='True'>
+    <meta name='MobileOptimized' content='320'>
+
+    <link rel="alternate" hreflang="es" href="https://www.lebouquet.es">
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <title>Le Bouquet Centro estético</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.min.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="css/responsiveslides.min.css"/>-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Etiqueta global de sitio (gtag.js) de Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84932151-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+
+      gtag('config', 'UA-84932151-1');
+  </script>
+</head>
+<body>
+  <div id="container">
+    <div id="right">
+      <section id="inicio">
+        <div class="head">
+          <img src="images/tile.png"/ alt="Imagen de título">
+        </div>
+          <h1>Centro estético en Castellón de la Plana.</h1>
+          <p>Belleza y bienestar en un innovador concepto de Nails Spa & Nails Bar que te embriagará de aquel glamour parisino que tanto nos fascina.
+          <div class="slide">
+            <ul class="rslides"><!-- outermost container element -->
+
+              <li><img src="images/pic2.jpg" alt="Un espacio acogedor"/></li>
+              <li><img src="images/pic1.jpg" alt="Centro estético"/></li>
+              <li><img src="images/pic3.jpg" alt="Maquillaje, manicuras y pedicuras"/></li>
+              <li><img src="images/pic5.jpg" alt="Centro en Castellón"/></li>
+              <li><img src="images/pic4.jpg" alt="Un lugar enbriagador"/></li>
+
+            </ul>	      
+          </div>
+          <p><span>Te ofrecemos una gran variedad de servicios maquillajes, extensiones de pestañas , tratamientos faciales y corporales, manicuras, pedicuras, depilaciones a la carta y todos los tratamientos necesarios para que nuestras novias luzcan radiantes el día de su boda. </span></p>
+          <p><span>Una amplia gama de cuidados personalizados con un trato cercano y cálido en un ambiente moderno, elegante, higiénico y relajante.</span></p>
+          
+
+          <!-- <div id="grupo_equipo">
+            <div class="line_1"></div>
+            <div id="person2" class="person">
+                <img class="frame" src="images/azahara.jpg"/>
+                <div class="text">
+                    <h6>Sofía </h6>
+                    <h5>Esteticista</h5>
+                </div>
+            </div>
+            <div id="person1" class="person">
+                <img class="frame" src="images/lledo.jpg"/>
+                <div class="text">
+                    <h6>Lledo Llobregat</h6>
+                    <h5>Maquilladora</h5>
+                </div>
+            </div>
+            <div id="person3" class="person">
+                <img class="frame" src="images/lledo.jpg"/>
+                <div class="text">
+                    <h6>Lledo Llobregat</h6>
+                    <h5>Esteticista</h5>
+                </div>
+            </div>
+          </div>
+ -->
+        <p class="read_more">
+          <a href="servicios.php" class="link">
+            <img src="images/arrow.png" alt="read more" width="16" height="12" />
+            Ir a servicios
+          </a> 
+        </p>
+        
+      </section>
+    </div>
+    <footer id="footer" class="footer">
+
+        <div class="right">
+          <p id="creator">Created by: <a href="#">Néstor Pons</a> 2017<p>
+        </div>
+        <h2>Contacto</h2>
+        <p>C/Ramon Llull 39</p>
+        <p>12005 Castellón de la plana</p>
+        <p>Teléfono 964 063959</p>
+
+    </footer>
+
+    <div id="left">
+      <img id="imgLogo" src="images/logo.png" alt="logo"/>
+
+      <!-- MENU -->
+      <h4><span class="menu_first_letter">Menu</span></h4>
+      <nav id="navcontainer">
+        <ul id="navlist">
+          <li><a href="inicio.php" class="link">Inicio</a></li>
+          <li><a href="servicios.php" class="link">Servicios</a></li>
+          <li><a href="beautyparty.php" class="link">BeautyParty</a></li>
+          <!-- <li><a href="marcas.php" class="link">Nuestras marcas</a></li> -->
+          <li><a href="galeria.php" class="link">Galería</a></li>
+          <li><a href="contacto.php" class="link">Contacto</a></li>
+          <li><a href="localizacion.php" class="link">Localización</a></li>
+          <li><a href="agenda/index.php">Pide tu cita</a></li>
+          <!-- <li><a href="about.php" class="link">Quienes somos</a></li> -->
+        </ul>
+      </nav>
+       <h4><span class="menu_first_letter">Social links</span></h4>
+        <div id=social>
+          <p>
+            <a id="lnkTelephone" class="lnk link" section="contacto" href="" aria-label="llamame"></a>
+            <a id="lnkMail" class="lnk" href="" aria-label="Enviame un email"></a>
+            <a id="lnkFacebook" class="lnk"  href="https://www.facebook.com/EsteticaLeBouquet" target="_blank" aria-label="Mi facebook"></a>
+          </p>
+          <p>
+            <a id="lnkGoogle" class="lnk"  href="https://plus.google.com/+LeBouquetEstetica" target="_blank" aria-label="google plus"></a>
+            <a id="lnkInstagram" class="lnk" href="https://www.instagram.com/lebouquet_estetica/" target="_blank" aria-label="Entra en mi Instagram"></a>
+            <a id="lnkLitmind" class="lnk" href="https://www.litmind.com/lledollobregat" target="_blank" aria-label="Mis trabajos de maquillaje en Litmid"></a>
+          </p>
+          <p>
+            <a id="lnkTwitter" class="lnk" href="https://www.pinterest.es/lebouquetcs" target="_blank" aria-label="Mi twiter"></a>
+            <a id="lnkMaps" class="lnk" href="https://www.google.es/maps/place/Le+Bouquet/@39.9800437,-0.0408335,17z/data=!3m1!4b1!4m5!3m4!1s0xd6000803f7a8c35:0x8e26992f9db1215d!8m2!3d39.9800396!4d-0.0386448" target="_blank" aria-label="Mi direccione n Maps"></a>
+            <a id="lnkWassap" class="lnk" href="https://api.whatsapp.com/send?phone=34646964327" target="_blank" aria-label="Puedes mandar un wassap desde aquí"></a>
+          </p>
+          <a href='https://www.bodas.net' title='Bodas.net'><img alt='Bodas.net' src='https://www.bodas.net/images/sellos/Sello-bodas-peq--pp44914.png'/></a>
+          <div class="links">
+            <p><a href="http://www.csstemplateheaven.com">CssTemplateHeaven</a></p>
+            <p>
+              <a href='http://www.freepik.es/vector-gratis/insignias-de-boda-con-ornamentos-estilo-vintage_1061737.htm'>Designed </a>
+              <a href='https://www.freepik.es/vector-gratis/telefono-y-objetos-vintage-dibujados-a-mano_943994.htm'> by Freepik</a>
+            </p>
+          </div>
+      </div>
+    </div>
+    <div id="containerMnuResponsive">
+      <div id=mnuResponsive>Menu</div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+  <script type="text/javascript" src="js/jquery-ui.min.js" ></script>
+  <script type="text/javascript" src="js/responsiveslides.min.js" ></script>
+  <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

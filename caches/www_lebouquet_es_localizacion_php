@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi, user-scalable=no" />
+
+        <meta name='keywords' content='maquillaje, maquilladora , novias, bodas, manicuras, pedicuras, tratamientos faciales, belleza, bienestar'>
+        <meta name='description' content='Centro estético en Castellón de la Plana. Realizamos maquillajes, manicuras, pedicuras y tratamientos faciales. Maquillajes profesionales de novia con aerografo para eventos y bodas.'>
+        <meta name='subject' content='Le Bouquet'>
+        <meta name='copyright' content='Nestor Pons '>
+        <meta name='language' content='ES'>
+        <meta name='robots' content='index,follow'>
+        <meta name='revised' content='2018-12-15'>
+        <meta name='Classification' content='Business'>
+        <meta name='author' content='Néstor Pons, nestorpons@gmail.com'>
+        <meta name='designer' content=''>
+        <meta name='reply-to' content='info@lebouquet.es'>
+        <meta name='owner' content=''>
+        <meta name='url' content='https://www.lebouquet.es'>
+        <meta name='identifier-URL' content='https://www.lebouquet.es'>
+        <meta name='subtitle' content='Centro de belleza en Castellón'>
+        <meta name='target' content='all'>
+        <meta name='HandheldFriendly' content='True'>
+        <meta name='MobileOptimized' content='320'>
+
+        <link rel="alternate" hreflang="es" href="https://www.lebouquet.es">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+        <title>Le Bouquet Centro estetico</title>
+    </head>
+    <body>
+      <a href="/">home</a>
+          <section id="localizacion">
+        <br>
+        <p>Nos encontraras en Calle Ramón Llull 39 , muy cerca del colegio Carmelitas.</p>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.272516057029!2d-0.03892375147833458!3d39.98001491591213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6000803f7a8c35%3A0x8e26992f9db1215d!2sLe+Bouquet!5e0!3m2!1ses!2ses!4v1508090982843" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <br>
+        Disponemos de parking gratuito en calle Herrero nº 14, solicita tu ticket en el centro Le Bouquet.
+        <br>
+        <img src="images/parcking.png"/>
+    </section>
+    </body>
+</html>
+       
