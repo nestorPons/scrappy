@@ -1,17 +1,19 @@
 import re
 import requests
 import os
-
+from tabulate import tabulate
 
 class Menu:
     
-    def __init__(self, menuName=''):
+    def __init__(self, menuName='', table=False):
+        self.format = table
         self.end = False
         self.name = menuName
         self.strOptions = ''
+        self.lstOptions = []
         self.mnuOptions = {}
-        self.resOptions = {}
-        os.system("clear")
+        self.outOptions = {}
+        self._headers = ['ID', 'DESCRIPCIÓN']
     
     def requestTarget(self, default = ''):
         try:
@@ -30,54 +32,68 @@ class Menu:
         except Exception as e:
             print(e)
 
+    # Establece la cabecera de la tabla
+    def setHeader(self, header=[]):
+        self._headers = header
+        
     # Atrapa la respuesta del menú
     # Mensage -> menssaje alternativo 
-    def start(self, menssage='Seleccione una opción: '):  
-        while not self.end:
-            result = None
-            self.end = False
+    def start(self, menssage='Seleccione una opción: '): 
+        os.system("clear")
+        try:
+            while not self.end:
+                result = None
+                self.showData(self.lstOptions)    
+                try: 
+                    index = int(input(menssage))
+                    if not index in self.mnuOptions: raise ValueError
+                except:
+                    print('\nERROR: Numero de opción incorrecto!')
+                    self.start()
+                
+                inArgs = self.mnuOptions[index]
 
-            print('\n'+self.name)
-            print('--------------')
-            print (self.strOptions, '\n')
-            try: 
-                index = int(input(menssage))
-                if not index in self.mnuOptions: raise
-            except:
-                print('\nERROR: Numero de opción incorrecto!')
-                self.start()
-            
-            funaction = self.mnuOptions[index]
-
-            #Ejecutamos el método vinculado al índice del menú seleccionado
-            if funaction != None:
                 #Ejecutamos el método vinculado al índice del menú seleccionado
-                if isinstance(funaction, list):
-                    # Ejecución de función guardada y sus argumentos si los tiene
-                    result = funaction[0](funaction[1])
-                else:
-                    result = funaction() or False
-
-                # Ejecutamos la accion programada
-                result = [index,result]
-            else: 
-                result = [index, False]
-
-            funres = self.resOptions[index]
-            if funres != None:
-                try:
-                    # y ejecutamos la función de espuesta 
-                    if isinstance(funres, list):
-                        # funcion (argumento de respuesta, argumentos vinculados)
-                        funres[0](result, funres[1])
-                    else:
-                        if result:
-                            funres(result)
+                if inArgs:
+                    #Ejecutamos el método vinculado al índice del menú seleccionado
+                    if isinstance(inArgs, list):
+                        if len(inArgs) > 1:
+                            # Ejecución de función guardada y sus argumentos si los tiene
+                            result = inArgs[0](inArgs[1])
                         else:
-                            funres()
+                            result = inArgs[0]()
+                    else:
+                        result = inArgs()
 
-                except Exception as e:
-                    print(e)
+                    # Ejecutamos la accion programada
+                    result = [index,result]
+                else: 
+                    result = [index, False]
+   
+                # salida
+                outOp = self.outOptions[index]
+ 
+                if outOp:
+                    print('a')
+                    # Si tiene funcion de respuesta se ejecuta
+                    if isinstance(outOp, list): 
+                        print('b')
+                        if len(outOp) > 1:
+                            # funcion (argumento de respuesta, argumentos vinculados, [funcion de respuesta])
+                            print('c', result, outOp)
+                            outOp[0](result, outOp[1])
+                        else:
+                            outOp[0](result)
+                    else:
+                        outOp(result)
+
+            # Se reestablece para poder volver a abrir el menu
+            self.end = False
+            os.system("clear")
+        except Exception as e:
+            print('Opción no disponible...')
+            print(e)
+            exit()
 
     # Solicita un dato para añadirlo a una funcion 
     def input(self, menssage='Introduzca los datos: ', function=None, typedata=int):
@@ -93,15 +109,23 @@ class Menu:
         except Exception as e:
             print(e)
 
-    # Añade opciones al menu
-    # indice, descripcion, función a ejecutar, función respuesta
-    # action = [nombre de funcion, argumentos]
-    # response = [nombre de funcion, argumentos]
-    def addOption(self, index, description, action = None, response = None):
-        # se añade el parametro 0 para evitar futuros errores
-        self.mnuOptions[int(index)] = action
-        self.resOptions[int(index)] = response
-        self.strOptions = '{}\n{} {}'.format(self.strOptions, index, description) 
+
+    def addOption(self, data, inOp = [], outOp = []):
+        '''
+        inFuncscripción ,datos a incluir en la tabla/menu
+        @param [action] = list: [nombre de funcion, argumentos]
+        @param [response] = list: [nombre de funcion, argumentos]
+        '''
+        try:
+            index = data[0]
+            self.mnuOptions[int(index)] = inOp
+            self.outOptions[int(index)] = outOp
+            self.lstOptions.append(data)   
+    
+            return self
+        except Exception as e:
+            print('Menu.addOption:', e)
+            exit()
 
     # Se comprueba que tiene la forma de una url 
     def isURL(self, url):
@@ -121,3 +145,8 @@ class Menu:
     
     def exit(self):
         self.end = True
+
+    def showData(self, data):
+        print(
+            tabulate(data, headers=self._headers)
+        )

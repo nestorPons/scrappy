@@ -6,10 +6,12 @@ class Scanner:
         
     def __init__(self, cache=False, default = {}):
         self._scope = 0
-        if default: 
-            self._scope = default['scope'] 
-
+        if default:
+            self._scope = default['scope']
         self.cache = cache
+        self.reset()
+
+    def reset(self):
         self.links = []
         self.target = ''
         self.dataTarget = ''
@@ -24,7 +26,7 @@ class Scanner:
         self.browser.set_handle_robots(False)
         self.browser.set_handle_robots(False)
         self.browser.addheaders = [("User-agent","Mozilla/5.0")]
-    
+
     # Establecemos el objetivo del escaneo
     def iniTarget(self, url):
         try:
@@ -148,10 +150,6 @@ class Scanner:
     
     def getLinks(self):
         return self.links
-    
-    def getImages(self, key):
-        key = self.checkey(key)
-        return self.data[key]['img']
 
     def checkey(self, key):
         if isinstance(key, (int) ):   
@@ -179,7 +177,7 @@ class Scanner:
     def getData(self, key):
         response = []
         data = {}
-        # Se listan todos los teléfonos
+        # Se listan todos los datos de determinada llave
         for url in self.data.keys():       
             count = 0
             for t in self.data[url][key]:
@@ -191,18 +189,21 @@ class Scanner:
         return response[0]
 
     def getImg(self):
-        lst = []
-        for url in self.data.keys(): 
+        try:
+            dic = {}
             # Componemos la url de las imagenes para poder linkear
-            for img in self.data[url]['img']:
-                u = '' 
-                if not re.search(r'^(https|http)+://', img):
-                    spl = re.split('/', url)
-                    end = spl[len(spl)-1]
-                    u = re.sub(end,'',url)
-                lst.append(u+img)
+            for k, v in self.getData('img')[1].items():
+                nk = k
+                if not re.search(r'^(https|http)+://', nk):
+                    nk = re.sub(r'\.\/','',nk)
+                    nk = self.target +'/'+ k
+                dic[nk] = v
 
-        return lst
+
+            return [self.target, dic]
+            
+        except Exception as e:
+            print('getImage:', e)
 
     #getter and setter
     def scope(self, val=None):
