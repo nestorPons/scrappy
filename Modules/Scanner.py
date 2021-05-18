@@ -1,4 +1,5 @@
 import mechanize
+import requests
 import re
 from progress.bar import Bar, ChargingBar
 
@@ -140,14 +141,34 @@ class Scanner:
             dic['emails'] = re.findall(r'[\w\.-]+@[\w]+\.?[a-zA-Z]{2,5}', self.dataTarget)
             #buscar imagenes 
             dic['img'] = re.findall(r'<\s*img.*?src\s*=\s*["|\'](.*?\.jpg|png|jpeg|gif?)["|\'?]', self.dataTarget)
-
+            #buscar nombres 
+            dic['names'] = self.searchNames()
+            print(dic['names'])
             # Guardamos los datos
             self.data[url] = dic
             # print(self.data)
         except:
             # Guardamos array con las dir que no han cargado
-            self.noLoads.append(url)      
-    
+            self.noLoads.append(url) 
+            
+    def searchNames(self):
+        try:
+            target = self.dataTarget
+            # Obtenemos nombres compuestos
+            regex = r'([A-Z+].*?\s[A-Z+].*?)[\s|$]'
+            names = re.findall(regex, target)
+            target = re.sub(regex, '', target)  
+            print(names)
+            regex = r'([A-Z+].*?)+[\s|$]'
+            names.append(re.findall(regex,target))
+            target = re.sub(regex, '', target)
+            # Obtenemos los nombres simpes
+            print(names)
+            return names
+
+        except Exception as e:
+            print('ERROR searchNames:', e)
+
     def getLinks(self):
         return self.links
 

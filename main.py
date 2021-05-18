@@ -16,12 +16,13 @@ try:
     config = Config('config.json')
     scann = Scanner(cache=True, default=config.data())
 
-    menu.addOption(['1', 'Iniciar objetivo'], [main.setTarget, (menu, config, scann)])
-    menu.addOption(['2', 'Menu opciones'], menuOp.start)
+    menu.addOption(['1', 'Crear objetivo'], [main.setTarget, (menu, config, scann)])
+    menu.addOption(['2', 'Menu 1'], menuOp.start)
     menu.addOption(['3', 'Obtener los telefonos'], [scann.getData,('tels')], [main.showDataMenu, (Tel.ntInfo, main.printResponse, ['ID', 'TELÉFONO', 'COINCIDENCIAS'])])
     menu.addOption(['4', 'Obtener los emails'], [scann.getData, ('emails')], main.showDataMenu)
     menu.addOption(['5', 'Obtener las imagenes'], scann.getImg, [main.showDataMenu,(main.getImage, None, None)])
-    menu.addOption(['6', 'Menú datos sin procesar'], menuData.start)
+    menu.addOption(['6', 'Obtener las nombres'], scann.getImg, [main.showDataMenu,(main.getImage, None, None)])
+    menu.addOption(['9', 'Menú datos sin procesar'], menuData.start)
     menu.addOption(['0', 'Salir'],  menu.exit)
 
     menuData.addOption(['0', 'Salir al menú principal'], menuData.exit )

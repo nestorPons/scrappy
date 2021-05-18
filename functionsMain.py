@@ -22,6 +22,10 @@ def setTarget(tpl):
     # Se inicia el scaneo 
     scann.scanLinks()
 
+    #whois del objetivo 
+        
+        
+
 def printResponse(response, header=[], showindex=True):
     data = response[1]
     for k, v in data.items():
