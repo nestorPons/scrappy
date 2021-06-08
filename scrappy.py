@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 
 import functionsMain as main
 from Modules.Scanner import Scanner
@@ -16,12 +16,12 @@ try:
     config = Config('config.json')
     scann = Scanner(cache=True, default=config.data())
 
-    menu.addOption(['1', 'Crear objetivo'], [main.setTarget, (menu, config, scann)])
-    menu.addOption(['2', 'Menu 1'], menuOp.start)
-    menu.addOption(['3', 'Obtener los telefonos'], [scann.getData,('tels')], [main.showDataMenu, (Tel.ntInfo, main.printResponse, ['ID', 'TELÉFONO', 'COINCIDENCIAS'])])
-    menu.addOption(['4', 'Obtener los emails'], [scann.getData, ('emails')], main.showDataMenu)
-    menu.addOption(['5', 'Obtener las imagenes'], scann.getImg, [main.showDataMenu,(main.getImage, None, None)])
-    menu.addOption(['6', 'Obtener las nombres'], scann.getImg, [main.showDataMenu,(main.getImage, None, None)])
+    menu.addOption(['1', 'Establecer objetivo'], [main.setTarget, (menu, config, scann)])
+    menu.addOption(['2', 'Obtener los telefonos'], [scann.getData,('tels')], [main.showDataMenu, (Tel.ntInfo, main.printResponse, ['ID', 'TELÉFONO', 'COINCIDENCIAS'])])
+    menu.addOption(['3', 'Obtener los emails'], [scann.getData, ('emails')], main.showDataMenu)
+    menu.addOption(['4', 'Obtener las imagenes'], scann.getImg, [main.showDataMenu,(main.getImage, None, None)])
+    menu.addOption(['5', 'Buscar nombres'], scann.searchNames, [main.showDataMenu])
+    menu.addOption(['8', 'Opciones'], menuOp.start)
     menu.addOption(['9', 'Menú datos sin procesar'], menuData.start)
     menu.addOption(['0', 'Salir'],  menu.exit)
 

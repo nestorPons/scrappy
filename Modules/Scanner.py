@@ -7,10 +7,13 @@ class Scanner:
         
     def __init__(self, cache=False, default = {}):
         self._scope = 0
+        self.reset()
+        self.cache = cache
         if default:
             self._scope = default['scope']
-        self.cache = cache
-        self.reset()
+        if cache:
+            self._loadData(default['target'])
+
 
     def reset(self):
         self.links = []

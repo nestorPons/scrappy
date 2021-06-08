@@ -28,6 +28,7 @@ def setTarget(tpl):
 
 def printResponse(response, header=[], showindex=True):
     data = response[1]
+    
     for k, v in data.items():
         print(k, '->', v)
     endOption()
