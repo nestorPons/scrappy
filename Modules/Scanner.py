@@ -2,6 +2,7 @@ import mechanize
 import requests
 import re
 from progress.bar import Bar, ChargingBar
+from Modules.Location import Location
 
 class Scanner:
         
@@ -13,7 +14,6 @@ class Scanner:
             self._scope = default['scope']
         if cache:
             self._loadData(default['target'])
-
 
     def reset(self):
         self.links = []
@@ -153,6 +153,21 @@ class Scanner:
         except:
             # Guardamos array con las dir que no han cargado
             self.noLoads.append(url) 
+       
+    # Busqueda de direcciones 
+    def searchDirs(self):
+        try:
+            l = Location('España')
+            l.target = self.dataTarget
+            # Carga de los objetivos en la clase
+            l.find_targets()
+            # Se construye las direcciones encontradas
+            dirs = l.build_dirs()
+            self.dirs = dirs
+            return dirs
+
+        except Exception as e:
+            print('ERROR searchDirs:', e)
             
     def searchNames(self):
         try:
@@ -161,12 +176,10 @@ class Scanner:
             regex = r'([A-Z+].*?\s[A-Z+].*?)[\s|$]'
             names = re.findall(regex, target)
             target = re.sub(regex, '', target)  
-            print(names)
             regex = r'([A-Z+].*?)+[\s|$]'
             names.append(re.findall(regex,target))
             target = re.sub(regex, '', target)
             # Obtenemos los nombres simpes
-            print(names)
             return names
 
         except Exception as e:

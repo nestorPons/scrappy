@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!venv/bin/python
 
 import functionsMain as main
 from Modules.Scanner import Scanner
@@ -8,6 +8,7 @@ from Modules.Tel import Tel
 from Modules.Img import Img
 
 try:
+    # Menus del inicio
     menu = Menu('Menú Principal')
     menuOp = Menu('Menú de opciones')
     menuData = Menu('Menú de datos')
@@ -21,6 +22,7 @@ try:
     menu.addOption(['3', 'Obtener los emails'], [scann.getData, ('emails')], main.showDataMenu)
     menu.addOption(['4', 'Obtener las imagenes'], scann.getImg, [main.showDataMenu,(main.getImage, None, None)])
     menu.addOption(['5', 'Buscar nombres'], scann.searchNames, [main.showDataMenu])
+    menu.addOption(['6', 'Buscar direcciones'], scann.searchDirs, [main.printObjects])
     menu.addOption(['8', 'Opciones'], menuOp.start)
     menu.addOption(['9', 'Menú datos sin procesar'], menuData.start)
     menu.addOption(['0', 'Salir'],  menu.exit)

@@ -6,6 +6,12 @@ from Modules.Img import Img
 import wget
 import exiftool
 
+def clear():
+    if os.name == "nt":
+        os.system("cls")
+    else:
+        os.system("clear")
+        
 def endOption():
     
     input("\nPresione cualquier tecla para continuar...")
@@ -24,7 +30,12 @@ def setTarget(tpl):
 
     #whois del objetivo 
         
-        
+# Imprime objetos con el metodo string para impresion en consola
+def printObjects(response):
+    clear()
+    arrdata = response[1]
+    for o in arrdata:
+        print(o.string())
 
 def printResponse(response, header=[], showindex=True):
     data = response[1]
@@ -37,9 +48,12 @@ def showImage(response):
     print('SHOW IMAGE')
     print(response)
 
+  
+    
 # Muestra los datos del scaner
 # [index, {url : [datos]}]
 def showDataMenu (response, tpl=()):
+
     inFunc=None
     outFunc=None
     headers=[]
@@ -78,6 +92,7 @@ def showDataMenu (response, tpl=()):
        
         mnu.start()
         #endOption()
+        
     except Exception as e:
         print('ErrorshowDataMenu:', e)
         exit()

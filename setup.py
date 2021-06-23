@@ -16,6 +16,7 @@ setup(name='scrappy',
           'wget',
           'PyExifTool',
           'mechanize >= 0.4.4',
-          'progress == 1.5'
+          'progress == 1.5',
+          'geocoder'
       ],
       zip_safe=False)
